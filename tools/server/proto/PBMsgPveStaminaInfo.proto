@@ -1,0 +1,5 @@
+message PBMsgPveStaminaInfo
+{
+    optional int32 energy = 1;
+    optional int64 time = 2;
+}

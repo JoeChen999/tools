@@ -1,0 +1,18 @@
+message PBMsgHeader
+{
+	required string naId = 1;
+	required string gcUid = 2;
+	required string gcUnick = 3;
+	required string mobileId = 4;
+	required int32 platformId = 5;
+	required string becomeUserId = 6;
+	required string becomePassword = 7;
+	required int32 debug = 8;
+	required string gVer = 9;
+	required int64 gameSlot = 10;
+	required int32 theme = 11;	
+	required string newLang = 12;
+	required int64 gameNumber = 13;	
+	optional string kabamId = 14;
+	optional string access_token = 15;
+}

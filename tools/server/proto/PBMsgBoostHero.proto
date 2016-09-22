@@ -1,0 +1,34 @@
+message PBMsgBoostHero {
+
+    message PBMsgSkillActived {
+        required int32 id = 1;
+        required bool actived = 2;
+        optional int32 lv = 3;
+        optional int32 hero = 4;
+        optional int32 gear = 5;
+        optional int32 effectId = 6;
+        repeated string effect = 7;
+    }
+
+    enum PBMsgHeroStatus {
+        UNLOCKED = 1;
+        IN_CITY_DO_NOTHING = 2;
+        IN_CITY_IN_MARCH = 3;
+        IN_CITY_SLEEP = 4;
+        IN_NO_CITY = 5;
+    }
+
+    required int64 userHeroId = 1;
+    optional PBMsgHeroStatus status = 2;
+    optional int32 level = 3;
+    optional int32 hp = 4;
+    optional int32 attack = 5;
+    optional int32 load = 6;
+    optional int32 might = 7;
+    repeated PBMsgSkillActived skill = 8;
+    repeated PBMsgSkillActived fate = 9;
+    required bool levelUp = 10;
+    required int32 renown = 11;
+    optional int32 nextLevelRenown = 12;
+    required int32 itemId = 13;
+}

@@ -1,0 +1,6 @@
+message PBMsgReqAssignHero
+{
+  required int64 cid = 1;
+  required int64 hid = 2;
+  required int32 sid = 3;
+}

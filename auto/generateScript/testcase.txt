@@ -1,0 +1,6 @@
+from com.android.monkeyrunner import MonkeyRunner, MonkeyDevice, MonkeyImage
+device = MonkeyRunner.waitForConnection()
+device.touch(585,77,downAndUp)
+device.touch(562,309,downAndUp)
+device.touch(477,469,downAndUp)
+device.touch(486,616,downAndUp)

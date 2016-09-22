@@ -1,0 +1,17 @@
+message PBMsgUpdateSeed
+{
+	optional string pveMd5 = 1;
+	optional PveData pveData = 2;
+	message PveData
+	{
+		
+	}
+	
+	optional string heroMd5 = 3;
+	optional HeroData heroData = 4;
+	message HeroData 
+	{
+		
+	}
+
+}

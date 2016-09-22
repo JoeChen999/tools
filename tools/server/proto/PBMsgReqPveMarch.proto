@@ -1,0 +1,33 @@
+message PBMsgReqPveMarch
+{
+  optional int32 knightId = 1;
+  optional int32 cityId = 2;
+  optional int32 marchId = 3;
+  optional int32 levelId = 4;
+
+  optional int32 u1 = 5;
+  optional int32 u2 = 6;
+  optional int32 u3 = 7;
+  optional int32 u4 = 8;
+  optional int32 u5 = 9;
+  optional int32 u6 = 10;
+  optional int32 u7 = 11;
+  optional int32 u8 = 12;
+  optional int32 u9 = 13;
+  optional int32 u10 = 14;
+  optional int32 u11 = 15;
+  optional int32 u12 = 16;
+  optional int32 u13 = 17;
+  optional int32 u14 = 18;
+  optional int32 u15 = 19;
+  optional int32 u16 = 20;
+  optional int32 u17 = 21;
+  optional int32 u18 = 22;
+  optional int32 u19 = 23;
+  optional int32 u20 = 24;
+  optional int32 u21 = 25;
+  optional int32 u22 = 26;
+  optional int32 u23 = 27;
+  optional int32 u24 = 28;
+  optional int32 u25 = 29;
+}

@@ -1,0 +1,3053 @@
+package com.kabam.billing.util; class Base64 {/*
+
+.class public Lcom/kabam/billing/util/Base64;
+.super Ljava/lang/Object;
+.source "Base64.java"
+
+
+# static fields
+#the value of this static final field might be set in the static constructor
+.field static final synthetic $assertionsDisabled:Z = false
+
+.field private static final ALPHABET:[B = null
+
+.field private static final DECODABET:[B = null
+
+.field public static final DECODE:Z = false
+
+.field public static final ENCODE:Z = true
+
+.field private static final EQUALS_SIGN:B = 0x3dt
+
+.field private static final EQUALS_SIGN_ENC:B = -0x1t
+
+.field private static final NEW_LINE:B = 0xat
+
+.field private static final WEBSAFE_ALPHABET:[B = null
+
+.field private static final WEBSAFE_DECODABET:[B = null
+
+.field private static final WHITE_SPACE_ENC:B = -0x5t
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 8
+
+    .prologue
+    const/4 v7, 0x3
+
+    #v7=(PosByte);
+    const/4 v6, 0x2
+
+    #v6=(PosByte);
+    const/4 v1, 0x1
+
+    #v1=(One);
+    const/4 v5, -0x5
+
+    #v5=(Byte);
+    const/16 v4, -0x9
+
+    .line 41
+    #v4=(Byte);
+    const-class v0, Lcom/kabam/billing/util/Base64;
+
+    #v0=(Reference);
+    invoke-virtual {v0}, Ljava/lang/Class;->desiredAssertionStatus()Z
+
+    move-result v0
+
+    #v0=(Boolean);
+    if-nez v0, :cond_0
+
+    move v0, v1
+
+    :goto_0
+    sput-boolean v0, Lcom/kabam/billing/util/Base64;->$assertionsDisabled:Z
+
+    .line 58
+    const/16 v0, 0x40
+
+    #v0=(PosByte);
+    new-array v0, v0, [B
+
+    #v0=(Reference);
+    fill-array-data v0, :array_0
+
+    .line 57
+    sput-object v0, Lcom/kabam/billing/util/Base64;->ALPHABET:[B
+
+    .line 76
+    const/16 v0, 0x40
+
+    #v0=(PosByte);
+    new-array v0, v0, [B
+
+    #v0=(Reference);
+    fill-array-data v0, :array_1
+
+    .line 75
+    sput-object v0, Lcom/kabam/billing/util/Base64;->WEBSAFE_ALPHABET:[B
+
+    .line 94
+    const/16 v0, 0x80
+
+    #v0=(PosShort);
+    new-array v0, v0, [B
+
+    #v0=(Reference);
+    const/4 v2, 0x0
+
+    #v2=(Null);
+    aput-byte v4, v0, v2
+
+    aput-byte v4, v0, v1
+
+    aput-byte v4, v0, v6
+
+    aput-byte v4, v0, v7
+
+    const/4 v2, 0x4
+
+    #v2=(PosByte);
+    aput-byte v4, v0, v2
+
+    const/4 v2, 0x5
+
+    aput-byte v4, v0, v2
+
+    const/4 v2, 0x6
+
+    aput-byte v4, v0, v2
+
+    const/4 v2, 0x7
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x8
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x9
+
+    .line 95
+    aput-byte v5, v0, v2
+
+    const/16 v2, 0xa
+
+    aput-byte v5, v0, v2
+
+    const/16 v2, 0xb
+
+    .line 96
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0xc
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0xd
+
+    .line 97
+    aput-byte v5, v0, v2
+
+    const/16 v2, 0xe
+
+    .line 98
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0xf
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x10
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x11
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x12
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x13
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x14
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x15
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x16
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x17
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x18
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x19
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x1a
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x1b
+
+    .line 99
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x1c
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x1d
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x1e
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x1f
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x20
+
+    .line 100
+    aput-byte v5, v0, v2
+
+    const/16 v2, 0x21
+
+    .line 101
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x22
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x23
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x24
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x25
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x26
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x27
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x28
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x29
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x2a
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x2b
+
+    .line 102
+    const/16 v3, 0x3e
+
+    #v3=(PosByte);
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x2c
+
+    .line 103
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x2d
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x2e
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x2f
+
+    .line 104
+    const/16 v3, 0x3f
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x30
+
+    .line 105
+    const/16 v3, 0x34
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x31
+
+    const/16 v3, 0x35
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x32
+
+    const/16 v3, 0x36
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x33
+
+    const/16 v3, 0x37
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x34
+
+    const/16 v3, 0x38
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x35
+
+    const/16 v3, 0x39
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x36
+
+    const/16 v3, 0x3a
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x37
+
+    const/16 v3, 0x3b
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x38
+
+    const/16 v3, 0x3c
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x39
+
+    const/16 v3, 0x3d
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x3a
+
+    .line 106
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x3b
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x3c
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x3d
+
+    .line 107
+    const/4 v3, -0x1
+
+    #v3=(Byte);
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x3e
+
+    .line 108
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x3f
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x40
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x42
+
+    .line 109
+    aput-byte v1, v0, v2
+
+    const/16 v2, 0x43
+
+    aput-byte v6, v0, v2
+
+    const/16 v2, 0x44
+
+    aput-byte v7, v0, v2
+
+    const/16 v2, 0x45
+
+    const/4 v3, 0x4
+
+    #v3=(PosByte);
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x46
+
+    const/4 v3, 0x5
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x47
+
+    const/4 v3, 0x6
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x48
+
+    const/4 v3, 0x7
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x49
+
+    const/16 v3, 0x8
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x4a
+
+    const/16 v3, 0x9
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x4b
+
+    const/16 v3, 0xa
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x4c
+
+    const/16 v3, 0xb
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x4d
+
+    const/16 v3, 0xc
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x4e
+
+    const/16 v3, 0xd
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x4f
+
+    .line 110
+    const/16 v3, 0xe
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x50
+
+    const/16 v3, 0xf
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x51
+
+    const/16 v3, 0x10
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x52
+
+    const/16 v3, 0x11
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x53
+
+    const/16 v3, 0x12
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x54
+
+    const/16 v3, 0x13
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x55
+
+    const/16 v3, 0x14
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x56
+
+    const/16 v3, 0x15
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x57
+
+    const/16 v3, 0x16
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x58
+
+    const/16 v3, 0x17
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x59
+
+    const/16 v3, 0x18
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x5a
+
+    const/16 v3, 0x19
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x5b
+
+    .line 111
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x5c
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x5d
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x5e
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x5f
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x60
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x61
+
+    .line 112
+    const/16 v3, 0x1a
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x62
+
+    const/16 v3, 0x1b
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x63
+
+    const/16 v3, 0x1c
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x64
+
+    const/16 v3, 0x1d
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x65
+
+    const/16 v3, 0x1e
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x66
+
+    const/16 v3, 0x1f
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x67
+
+    const/16 v3, 0x20
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x68
+
+    const/16 v3, 0x21
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x69
+
+    const/16 v3, 0x22
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x6a
+
+    const/16 v3, 0x23
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x6b
+
+    const/16 v3, 0x24
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x6c
+
+    const/16 v3, 0x25
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x6d
+
+    const/16 v3, 0x26
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x6e
+
+    .line 113
+    const/16 v3, 0x27
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x6f
+
+    const/16 v3, 0x28
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x70
+
+    const/16 v3, 0x29
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x71
+
+    const/16 v3, 0x2a
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x72
+
+    const/16 v3, 0x2b
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x73
+
+    const/16 v3, 0x2c
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x74
+
+    const/16 v3, 0x2d
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x75
+
+    const/16 v3, 0x2e
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x76
+
+    const/16 v3, 0x2f
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x77
+
+    const/16 v3, 0x30
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x78
+
+    const/16 v3, 0x31
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x79
+
+    const/16 v3, 0x32
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x7a
+
+    const/16 v3, 0x33
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x7b
+
+    .line 114
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x7c
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x7d
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x7e
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x7f
+
+    aput-byte v4, v0, v2
+
+    .line 94
+    sput-object v0, Lcom/kabam/billing/util/Base64;->DECODABET:[B
+
+    .line 129
+    const/16 v0, 0x80
+
+    #v0=(PosShort);
+    new-array v0, v0, [B
+
+    #v0=(Reference);
+    const/4 v2, 0x0
+
+    #v2=(Null);
+    aput-byte v4, v0, v2
+
+    aput-byte v4, v0, v1
+
+    aput-byte v4, v0, v6
+
+    aput-byte v4, v0, v7
+
+    const/4 v2, 0x4
+
+    #v2=(PosByte);
+    aput-byte v4, v0, v2
+
+    const/4 v2, 0x5
+
+    aput-byte v4, v0, v2
+
+    const/4 v2, 0x6
+
+    aput-byte v4, v0, v2
+
+    const/4 v2, 0x7
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x8
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x9
+
+    .line 130
+    aput-byte v5, v0, v2
+
+    const/16 v2, 0xa
+
+    aput-byte v5, v0, v2
+
+    const/16 v2, 0xb
+
+    .line 131
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0xc
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0xd
+
+    .line 132
+    aput-byte v5, v0, v2
+
+    const/16 v2, 0xe
+
+    .line 133
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0xf
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x10
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x11
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x12
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x13
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x14
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x15
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x16
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x17
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x18
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x19
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x1a
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x1b
+
+    .line 134
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x1c
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x1d
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x1e
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x1f
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x20
+
+    .line 135
+    aput-byte v5, v0, v2
+
+    const/16 v2, 0x21
+
+    .line 136
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x22
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x23
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x24
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x25
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x26
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x27
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x28
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x29
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x2a
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x2b
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x2c
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x2d
+
+    .line 137
+    const/16 v3, 0x3e
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x2e
+
+    .line 138
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x2f
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x30
+
+    .line 139
+    const/16 v3, 0x34
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x31
+
+    const/16 v3, 0x35
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x32
+
+    const/16 v3, 0x36
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x33
+
+    const/16 v3, 0x37
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x34
+
+    const/16 v3, 0x38
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x35
+
+    const/16 v3, 0x39
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x36
+
+    const/16 v3, 0x3a
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x37
+
+    const/16 v3, 0x3b
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x38
+
+    const/16 v3, 0x3c
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x39
+
+    const/16 v3, 0x3d
+
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x3a
+
+    .line 140
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x3b
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x3c
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x3d
+
+    .line 141
+    const/4 v3, -0x1
+
+    #v3=(Byte);
+    aput-byte v3, v0, v2
+
+    const/16 v2, 0x3e
+
+    .line 142
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x3f
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x40
+
+    aput-byte v4, v0, v2
+
+    const/16 v2, 0x42
+
+    .line 143
+    aput-byte v1, v0, v2
+
+    const/16 v1, 0x43
+
+    #v1=(PosByte);
+    aput-byte v6, v0, v1
+
+    const/16 v1, 0x44
+
+    aput-byte v7, v0, v1
+
+    const/16 v1, 0x45
+
+    const/4 v2, 0x4
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x46
+
+    const/4 v2, 0x5
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x47
+
+    const/4 v2, 0x6
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x48
+
+    const/4 v2, 0x7
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x49
+
+    const/16 v2, 0x8
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x4a
+
+    const/16 v2, 0x9
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x4b
+
+    const/16 v2, 0xa
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x4c
+
+    const/16 v2, 0xb
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x4d
+
+    const/16 v2, 0xc
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x4e
+
+    const/16 v2, 0xd
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x4f
+
+    .line 144
+    const/16 v2, 0xe
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x50
+
+    const/16 v2, 0xf
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x51
+
+    const/16 v2, 0x10
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x52
+
+    const/16 v2, 0x11
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x53
+
+    const/16 v2, 0x12
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x54
+
+    const/16 v2, 0x13
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x55
+
+    const/16 v2, 0x14
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x56
+
+    const/16 v2, 0x15
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x57
+
+    const/16 v2, 0x16
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x58
+
+    const/16 v2, 0x17
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x59
+
+    const/16 v2, 0x18
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x5a
+
+    const/16 v2, 0x19
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x5b
+
+    .line 145
+    aput-byte v4, v0, v1
+
+    const/16 v1, 0x5c
+
+    aput-byte v4, v0, v1
+
+    const/16 v1, 0x5d
+
+    aput-byte v4, v0, v1
+
+    const/16 v1, 0x5e
+
+    aput-byte v4, v0, v1
+
+    const/16 v1, 0x5f
+
+    .line 146
+    const/16 v2, 0x3f
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x60
+
+    .line 147
+    aput-byte v4, v0, v1
+
+    const/16 v1, 0x61
+
+    .line 148
+    const/16 v2, 0x1a
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x62
+
+    const/16 v2, 0x1b
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x63
+
+    const/16 v2, 0x1c
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x64
+
+    const/16 v2, 0x1d
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x65
+
+    const/16 v2, 0x1e
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x66
+
+    const/16 v2, 0x1f
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x67
+
+    const/16 v2, 0x20
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x68
+
+    const/16 v2, 0x21
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x69
+
+    const/16 v2, 0x22
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x6a
+
+    const/16 v2, 0x23
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x6b
+
+    const/16 v2, 0x24
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x6c
+
+    const/16 v2, 0x25
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x6d
+
+    const/16 v2, 0x26
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x6e
+
+    .line 149
+    const/16 v2, 0x27
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x6f
+
+    const/16 v2, 0x28
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x70
+
+    const/16 v2, 0x29
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x71
+
+    const/16 v2, 0x2a
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x72
+
+    const/16 v2, 0x2b
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x73
+
+    const/16 v2, 0x2c
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x74
+
+    const/16 v2, 0x2d
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x75
+
+    const/16 v2, 0x2e
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x76
+
+    const/16 v2, 0x2f
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x77
+
+    const/16 v2, 0x30
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x78
+
+    const/16 v2, 0x31
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x79
+
+    const/16 v2, 0x32
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x7a
+
+    const/16 v2, 0x33
+
+    aput-byte v2, v0, v1
+
+    const/16 v1, 0x7b
+
+    .line 150
+    aput-byte v4, v0, v1
+
+    const/16 v1, 0x7c
+
+    aput-byte v4, v0, v1
+
+    const/16 v1, 0x7d
+
+    aput-byte v4, v0, v1
+
+    const/16 v1, 0x7e
+
+    aput-byte v4, v0, v1
+
+    const/16 v1, 0x7f
+
+    aput-byte v4, v0, v1
+
+    .line 128
+    sput-object v0, Lcom/kabam/billing/util/Base64;->WEBSAFE_DECODABET:[B
+
+    return-void
+
+    .line 41
+    :cond_0
+    #v0=(Boolean);v1=(One);v2=(Uninit);v3=(Uninit);
+    const/4 v0, 0x0
+
+    #v0=(Null);
+    goto/16 :goto_0
+
+    .line 58
+    #v0=(Unknown);v1=(Unknown);v2=(Unknown);v3=(Unknown);v4=(Unknown);v5=(Unknown);v6=(Unknown);v7=(Unknown);
+    nop
+
+    :array_0
+    .array-data 0x1
+        0x41t
+        0x42t
+        0x43t
+        0x44t
+        0x45t
+        0x46t
+        0x47t
+        0x48t
+        0x49t
+        0x4at
+        0x4bt
+        0x4ct
+        0x4dt
+        0x4et
+        0x4ft
+        0x50t
+        0x51t
+        0x52t
+        0x53t
+        0x54t
+        0x55t
+        0x56t
+        0x57t
+        0x58t
+        0x59t
+        0x5at
+        0x61t
+        0x62t
+        0x63t
+        0x64t
+        0x65t
+        0x66t
+        0x67t
+        0x68t
+        0x69t
+        0x6at
+        0x6bt
+        0x6ct
+        0x6dt
+        0x6et
+        0x6ft
+        0x70t
+        0x71t
+        0x72t
+        0x73t
+        0x74t
+        0x75t
+        0x76t
+        0x77t
+        0x78t
+        0x79t
+        0x7at
+        0x30t
+        0x31t
+        0x32t
+        0x33t
+        0x34t
+        0x35t
+        0x36t
+        0x37t
+        0x38t
+        0x39t
+        0x2bt
+        0x2ft
+    .end array-data
+
+    .line 76
+    :array_1
+    .array-data 0x1
+        0x41t
+        0x42t
+        0x43t
+        0x44t
+        0x45t
+        0x46t
+        0x47t
+        0x48t
+        0x49t
+        0x4at
+        0x4bt
+        0x4ct
+        0x4dt
+        0x4et
+        0x4ft
+        0x50t
+        0x51t
+        0x52t
+        0x53t
+        0x54t
+        0x55t
+        0x56t
+        0x57t
+        0x58t
+        0x59t
+        0x5at
+        0x61t
+        0x62t
+        0x63t
+        0x64t
+        0x65t
+        0x66t
+        0x67t
+        0x68t
+        0x69t
+        0x6at
+        0x6bt
+        0x6ct
+        0x6dt
+        0x6et
+        0x6ft
+        0x70t
+        0x71t
+        0x72t
+        0x73t
+        0x74t
+        0x75t
+        0x76t
+        0x77t
+        0x78t
+        0x79t
+        0x7at
+        0x30t
+        0x31t
+        0x32t
+        0x33t
+        0x34t
+        0x35t
+        0x36t
+        0x37t
+        0x38t
+        0x39t
+        0x2dt
+        0x5ft
+    .end array-data
+.end method
+
+.method private constructor <init>()V
+    .locals 0
+
+    .prologue
+    .line 169
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 170
+    #p0=(Reference);
+    return-void
+.end method
+
+.method public static decode(Ljava/lang/String;)[B
+    .locals 3
+    .parameter "s"
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lcom/kabam/billing/util/Base64DecoderException;
+        }
+    .end annotation
+
+    .prologue
+    .line 419
+    invoke-virtual {p0}, Ljava/lang/String;->getBytes()[B
+
+    move-result-object v0
+
+    .line 420
+    .local v0, bytes:[B
+    #v0=(Reference);
+    const/4 v1, 0x0
+
+    #v1=(Null);
+    array-length v2, v0
+
+    #v2=(Integer);
+    invoke-static {v0, v1, v2}, Lcom/kabam/billing/util/Base64;->decode([BII)[B
+
+    move-result-object v1
+
+    #v1=(Reference);
+    return-object v1
+.end method
+
+.method public static decode([B)[B
+    .locals 2
+    .parameter "source"
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lcom/kabam/billing/util/Base64DecoderException;
+        }
+    .end annotation
+
+    .prologue
+    .line 445
+    const/4 v0, 0x0
+
+    #v0=(Null);
+    array-length v1, p0
+
+    #v1=(Integer);
+    invoke-static {p0, v0, v1}, Lcom/kabam/billing/util/Base64;->decode([BII)[B
+
+    move-result-object v0
+
+    #v0=(Reference);
+    return-object v0
+.end method
+
+.method public static decode([BII)[B
+    .locals 1
+    .parameter "source"
+    .parameter "off"
+    .parameter "len"
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lcom/kabam/billing/util/Base64DecoderException;
+        }
+    .end annotation
+
+    .prologue
+    .line 474
+    sget-object v0, Lcom/kabam/billing/util/Base64;->DECODABET:[B
+
+    #v0=(Reference);
+    invoke-static {p0, p1, p2, v0}, Lcom/kabam/billing/util/Base64;->decode([BII[B)[B
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public static decode([BII[B)[B
+    .locals 16
+    .parameter "source"
+    .parameter "off"
+    .parameter "len"
+    .parameter "decodabet"
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lcom/kabam/billing/util/Base64DecoderException;
+        }
+    .end annotation
+
+    .prologue
+    .line 504
+    mul-int/lit8 v13, p2, 0x3
+
+    #v13=(Integer);
+    div-int/lit8 v7, v13, 0x4
+
+    .line 505
+    .local v7, len34:I
+    #v7=(Integer);
+    add-int/lit8 v13, v7, 0x2
+
+    new-array v9, v13, [B
+
+    .line 506
+    .local v9, outBuff:[B
+    #v9=(Reference);
+    const/4 v10, 0x0
+
+    .line 508
+    .local v10, outBuffPosn:I
+    #v10=(Null);
+    const/4 v13, 0x4
+
+    #v13=(PosByte);
+    new-array v1, v13, [B
+
+    .line 509
+    .local v1, b4:[B
+    #v1=(Reference);
+    const/4 v2, 0x0
+
+    .line 510
+    .local v2, b4Posn:I
+    #v2=(Null);
+    const/4 v5, 0x0
+
+    .line 511
+    .local v5, i:I
+    #v5=(Null);
+    const/4 v11, 0x0
+
+    .line 512
+    .local v11, sbiCrop:B
+    #v11=(Null);
+    const/4 v12, 0x0
+
+    .line 513
+    .local v12, sbiDecode:B
+    #v12=(Null);
+    const/4 v5, 0x0
+
+    move v3, v2
+
+    .end local v2           #b4Posn:I
+    .local v3, b4Posn:I
+    :goto_0
+    #v0=(Conflicted);v2=(Integer);v3=(Integer);v5=(Integer);v10=(Integer);v11=(Byte);v12=(Byte);v13=(Integer);
+    move/from16 v0, p2
+
+    #v0=(Integer);
+    if-lt v5, v0, :cond_1
+
+    .line 557
+    :cond_0
+    #v4=(Conflicted);v6=(Conflicted);
+    if-eqz v3, :cond_b
+
+    .line 558
+    const/4 v13, 0x1
+
+    #v13=(One);
+    if-ne v3, v13, :cond_a
+
+    .line 559
+    new-instance v13, Lcom/kabam/billing/util/Base64DecoderException;
+
+    #v13=(UninitRef);
+    new-instance v14, Ljava/lang/StringBuilder;
+
+    #v14=(UninitRef);
+    const-string v15, "single trailing character at offset "
+
+    #v15=(Reference);
+    invoke-direct {v14, v15}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 560
+    #v14=(Reference);
+    add-int/lit8 v15, p2, -0x1
+
+    #v15=(Integer);
+    invoke-virtual {v14, v15}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    move-result-object v14
+
+    invoke-virtual {v14}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v14
+
+    .line 559
+    invoke-direct {v13, v14}, Lcom/kabam/billing/util/Base64DecoderException;-><init>(Ljava/lang/String;)V
+
+    #v13=(Reference);
+    throw v13
+
+    .line 514
+    :cond_1
+    #v4=(Uninit);v6=(Uninit);v13=(Integer);v14=(Uninit);v15=(Uninit);
+    add-int v13, v5, p1
+
+    aget-byte v13, p0, v13
+
+    #v13=(Byte);
+    and-int/lit8 v13, v13, 0x7f
+
+    #v13=(Integer);
+    int-to-byte v11, v13
+
+    .line 515
+    aget-byte v12, p3, v11
+
+    .line 517
+    const/4 v13, -0x5
+
+    #v13=(Byte);
+    if-lt v12, v13, :cond_9
+
+    .line 518
+    const/4 v13, -0x1
+
+    if-lt v12, v13, :cond_c
+
+    .line 521
+    const/16 v13, 0x3d
+
+    #v13=(PosByte);
+    if-ne v11, v13, :cond_7
+
+    .line 522
+    sub-int v4, p2, v5
+
+    .line 523
+    .local v4, bytesLeft:I
+    #v4=(Integer);
+    add-int/lit8 v13, p2, -0x1
+
+    #v13=(Integer);
+    add-int v13, v13, p1
+
+    aget-byte v13, p0, v13
+
+    #v13=(Byte);
+    and-int/lit8 v13, v13, 0x7f
+
+    #v13=(Integer);
+    int-to-byte v6, v13
+
+    .line 524
+    .local v6, lastByte:B
+    #v6=(Byte);
+    if-eqz v3, :cond_2
+
+    const/4 v13, 0x1
+
+    #v13=(One);
+    if-ne v3, v13, :cond_3
+
+    .line 525
+    :cond_2
+    #v13=(Integer);
+    new-instance v13, Lcom/kabam/billing/util/Base64DecoderException;
+
+    .line 526
+    #v13=(UninitRef);
+    new-instance v14, Ljava/lang/StringBuilder;
+
+    #v14=(UninitRef);
+    const-string v15, "invalid padding byte \'=\' at byte offset "
+
+    #v15=(Reference);
+    invoke-direct {v14, v15}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    #v14=(Reference);
+    invoke-virtual {v14, v5}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    move-result-object v14
+
+    invoke-virtual {v14}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v14
+
+    .line 525
+    invoke-direct {v13, v14}, Lcom/kabam/billing/util/Base64DecoderException;-><init>(Ljava/lang/String;)V
+
+    #v13=(Reference);
+    throw v13
+
+    .line 527
+    :cond_3
+    #v13=(One);v14=(Uninit);v15=(Uninit);
+    const/4 v13, 0x3
+
+    #v13=(PosByte);
+    if-ne v3, v13, :cond_4
+
+    const/4 v13, 0x2
+
+    if-gt v4, v13, :cond_5
+
+    .line 528
+    :cond_4
+    const/4 v13, 0x4
+
+    if-ne v3, v13, :cond_6
+
+    const/4 v13, 0x1
+
+    #v13=(One);
+    if-le v4, v13, :cond_6
+
+    .line 529
+    :cond_5
+    #v13=(PosByte);
+    new-instance v13, Lcom/kabam/billing/util/Base64DecoderException;
+
+    .line 530
+    #v13=(UninitRef);
+    new-instance v14, Ljava/lang/StringBuilder;
+
+    #v14=(UninitRef);
+    const-string v15, "padding byte \'=\' falsely signals end of encoded value at offset "
+
+    #v15=(Reference);
+    invoke-direct {v14, v15}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 531
+    #v14=(Reference);
+    invoke-virtual {v14, v5}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    move-result-object v14
+
+    .line 530
+    invoke-virtual {v14}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v14
+
+    .line 529
+    invoke-direct {v13, v14}, Lcom/kabam/billing/util/Base64DecoderException;-><init>(Ljava/lang/String;)V
+
+    #v13=(Reference);
+    throw v13
+
+    .line 532
+    :cond_6
+    #v13=(PosByte);v14=(Uninit);v15=(Uninit);
+    const/16 v13, 0x3d
+
+    if-eq v6, v13, :cond_0
+
+    const/16 v13, 0xa
+
+    if-eq v6, v13, :cond_0
+
+    .line 533
+    new-instance v13, Lcom/kabam/billing/util/Base64DecoderException;
+
+    .line 534
+    #v13=(UninitRef);
+    const-string v14, "encoded value has invalid trailing byte"
+
+    .line 533
+    #v14=(Reference);
+    invoke-direct {v13, v14}, Lcom/kabam/billing/util/Base64DecoderException;-><init>(Ljava/lang/String;)V
+
+    #v13=(Reference);
+    throw v13
+
+    .line 539
+    .end local v4           #bytesLeft:I
+    .end local v6           #lastByte:B
+    :cond_7
+    #v4=(Uninit);v6=(Uninit);v13=(PosByte);v14=(Uninit);
+    add-int/lit8 v2, v3, 0x1
+
+    .end local v3           #b4Posn:I
+    .restart local v2       #b4Posn:I
+    aput-byte v11, v1, v3
+
+    .line 540
+    const/4 v13, 0x4
+
+    if-ne v2, v13, :cond_8
+
+    .line 541
+    const/4 v13, 0x0
+
+    #v13=(Null);
+    move-object/from16 v0, p3
+
+    #v0=(Reference);
+    invoke-static {v1, v13, v9, v10, v0}, Lcom/kabam/billing/util/Base64;->decode4to3([BI[BI[B)I
+
+    move-result v13
+
+    #v13=(Integer);
+    add-int/2addr v10, v13
+
+    .line 542
+    const/4 v2, 0x0
+
+    .line 513
+    :cond_8
+    :goto_1
+    #v0=(Conflicted);
+    add-int/lit8 v5, v5, 0x1
+
+    move v3, v2
+
+    .end local v2           #b4Posn:I
+    .restart local v3       #b4Posn:I
+    goto/16 :goto_0
+
+    .line 546
+    :cond_9
+    #v0=(Integer);v13=(Byte);
+    new-instance v13, Lcom/kabam/billing/util/Base64DecoderException;
+
+    #v13=(UninitRef);
+    new-instance v14, Ljava/lang/StringBuilder;
+
+    #v14=(UninitRef);
+    const-string v15, "Bad Base64 input character at "
+
+    #v15=(Reference);
+    invoke-direct {v14, v15}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    #v14=(Reference);
+    invoke-virtual {v14, v5}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    move-result-object v14
+
+    .line 547
+    const-string v15, ": "
+
+    invoke-virtual {v14, v15}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v14
+
+    add-int v15, v5, p1
+
+    #v15=(Integer);
+    aget-byte v15, p0, v15
+
+    #v15=(Byte);
+    invoke-virtual {v14, v15}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    move-result-object v14
+
+    const-string v15, "(decimal)"
+
+    #v15=(Reference);
+    invoke-virtual {v14, v15}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v14
+
+    invoke-virtual {v14}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v14
+
+    .line 546
+    invoke-direct {v13, v14}, Lcom/kabam/billing/util/Base64DecoderException;-><init>(Ljava/lang/String;)V
+
+    #v13=(Reference);
+    throw v13
+
+    .line 562
+    :cond_a
+    #v4=(Conflicted);v6=(Conflicted);v13=(One);v14=(Uninit);v15=(Uninit);
+    add-int/lit8 v2, v3, 0x1
+
+    .end local v3           #b4Posn:I
+    .restart local v2       #b4Posn:I
+    const/16 v13, 0x3d
+
+    #v13=(PosByte);
+    aput-byte v13, v1, v3
+
+    .line 563
+    const/4 v13, 0x0
+
+    #v13=(Null);
+    move-object/from16 v0, p3
+
+    #v0=(Reference);
+    invoke-static {v1, v13, v9, v10, v0}, Lcom/kabam/billing/util/Base64;->decode4to3([BI[BI[B)I
+
+    move-result v13
+
+    #v13=(Integer);
+    add-int/2addr v10, v13
+
+    .line 566
+    :goto_2
+    #v0=(Conflicted);
+    new-array v8, v10, [B
+
+    .line 567
+    .local v8, out:[B
+    #v8=(Reference);
+    const/4 v13, 0x0
+
+    #v13=(Null);
+    const/4 v14, 0x0
+
+    #v14=(Null);
+    invoke-static {v9, v13, v8, v14, v10}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+
+    .line 568
+    return-object v8
+
+    .end local v2           #b4Posn:I
+    .end local v8           #out:[B
+    .restart local v3       #b4Posn:I
+    :cond_b
+    #v0=(Integer);v8=(Uninit);v13=(Integer);v14=(Uninit);
+    move v2, v3
+
+    .end local v3           #b4Posn:I
+    .restart local v2       #b4Posn:I
+    goto :goto_2
+
+    .end local v2           #b4Posn:I
+    .restart local v3       #b4Posn:I
+    :cond_c
+    #v4=(Uninit);v6=(Uninit);v13=(Byte);
+    move v2, v3
+
+    .end local v3           #b4Posn:I
+    .restart local v2       #b4Posn:I
+    goto :goto_1
+.end method
+
+.method private static decode4to3([BI[BI[B)I
+    .locals 3
+    .parameter "source"
+    .parameter "srcOffset"
+    .parameter "destination"
+    .parameter "destOffset"
+    .parameter "decodabet"
+
+    .prologue
+    const/16 v2, 0x3d
+
+    .line 378
+    #v2=(PosByte);
+    add-int/lit8 v1, p1, 0x2
+
+    #v1=(Integer);
+    aget-byte v1, p0, v1
+
+    #v1=(Byte);
+    if-ne v1, v2, :cond_0
+
+    .line 380
+    aget-byte v1, p0, p1
+
+    aget-byte v1, p4, v1
+
+    shl-int/lit8 v1, v1, 0x18
+
+    #v1=(Integer);
+    ushr-int/lit8 v1, v1, 0x6
+
+    .line 381
+    add-int/lit8 v2, p1, 0x1
+
+    #v2=(Integer);
+    aget-byte v2, p0, v2
+
+    #v2=(Byte);
+    aget-byte v2, p4, v2
+
+    shl-int/lit8 v2, v2, 0x18
+
+    #v2=(Integer);
+    ushr-int/lit8 v2, v2, 0xc
+
+    .line 380
+    or-int v0, v1, v2
+
+    .line 383
+    .local v0, outBuff:I
+    #v0=(Integer);
+    ushr-int/lit8 v1, v0, 0x10
+
+    #v1=(Char);
+    int-to-byte v1, v1
+
+    #v1=(Byte);
+    aput-byte v1, p2, p3
+
+    .line 384
+    const/4 v1, 0x1
+
+    .line 406
+    :goto_0
+    #v1=(PosByte);
+    return v1
+
+    .line 385
+    .end local v0           #outBuff:I
+    :cond_0
+    #v0=(Uninit);v1=(Byte);v2=(PosByte);
+    add-int/lit8 v1, p1, 0x3
+
+    #v1=(Integer);
+    aget-byte v1, p0, v1
+
+    #v1=(Byte);
+    if-ne v1, v2, :cond_1
+
+    .line 388
+    aget-byte v1, p0, p1
+
+    aget-byte v1, p4, v1
+
+    shl-int/lit8 v1, v1, 0x18
+
+    #v1=(Integer);
+    ushr-int/lit8 v1, v1, 0x6
+
+    .line 389
+    add-int/lit8 v2, p1, 0x1
+
+    #v2=(Integer);
+    aget-byte v2, p0, v2
+
+    #v2=(Byte);
+    aget-byte v2, p4, v2
+
+    shl-int/lit8 v2, v2, 0x18
+
+    #v2=(Integer);
+    ushr-int/lit8 v2, v2, 0xc
+
+    .line 388
+    or-int/2addr v1, v2
+
+    .line 390
+    add-int/lit8 v2, p1, 0x2
+
+    aget-byte v2, p0, v2
+
+    #v2=(Byte);
+    aget-byte v2, p4, v2
+
+    shl-int/lit8 v2, v2, 0x18
+
+    #v2=(Integer);
+    ushr-int/lit8 v2, v2, 0x12
+
+    .line 388
+    #v2=(Char);
+    or-int v0, v1, v2
+
+    .line 392
+    .restart local v0       #outBuff:I
+    #v0=(Integer);
+    ushr-int/lit8 v1, v0, 0x10
+
+    #v1=(Char);
+    int-to-byte v1, v1
+
+    #v1=(Byte);
+    aput-byte v1, p2, p3
+
+    .line 393
+    add-int/lit8 v1, p3, 0x1
+
+    #v1=(Integer);
+    ushr-int/lit8 v2, v0, 0x8
+
+    #v2=(Integer);
+    int-to-byte v2, v2
+
+    #v2=(Byte);
+    aput-byte v2, p2, v1
+
+    .line 394
+    const/4 v1, 0x2
+
+    #v1=(PosByte);
+    goto :goto_0
+
+    .line 398
+    .end local v0           #outBuff:I
+    :cond_1
+    #v0=(Uninit);v1=(Byte);v2=(PosByte);
+    aget-byte v1, p0, p1
+
+    aget-byte v1, p4, v1
+
+    shl-int/lit8 v1, v1, 0x18
+
+    #v1=(Integer);
+    ushr-int/lit8 v1, v1, 0x6
+
+    .line 399
+    add-int/lit8 v2, p1, 0x1
+
+    #v2=(Integer);
+    aget-byte v2, p0, v2
+
+    #v2=(Byte);
+    aget-byte v2, p4, v2
+
+    shl-int/lit8 v2, v2, 0x18
+
+    #v2=(Integer);
+    ushr-int/lit8 v2, v2, 0xc
+
+    .line 398
+    or-int/2addr v1, v2
+
+    .line 400
+    add-int/lit8 v2, p1, 0x2
+
+    aget-byte v2, p0, v2
+
+    #v2=(Byte);
+    aget-byte v2, p4, v2
+
+    shl-int/lit8 v2, v2, 0x18
+
+    #v2=(Integer);
+    ushr-int/lit8 v2, v2, 0x12
+
+    .line 398
+    #v2=(Char);
+    or-int/2addr v1, v2
+
+    .line 401
+    add-int/lit8 v2, p1, 0x3
+
+    #v2=(Integer);
+    aget-byte v2, p0, v2
+
+    #v2=(Byte);
+    aget-byte v2, p4, v2
+
+    shl-int/lit8 v2, v2, 0x18
+
+    #v2=(Integer);
+    ushr-int/lit8 v2, v2, 0x18
+
+    .line 398
+    #v2=(Char);
+    or-int v0, v1, v2
+
+    .line 403
+    .restart local v0       #outBuff:I
+    #v0=(Integer);
+    shr-int/lit8 v1, v0, 0x10
+
+    #v1=(Short);
+    int-to-byte v1, v1
+
+    #v1=(Byte);
+    aput-byte v1, p2, p3
+
+    .line 404
+    add-int/lit8 v1, p3, 0x1
+
+    #v1=(Integer);
+    shr-int/lit8 v2, v0, 0x8
+
+    #v2=(Integer);
+    int-to-byte v2, v2
+
+    #v2=(Byte);
+    aput-byte v2, p2, v1
+
+    .line 405
+    add-int/lit8 v1, p3, 0x2
+
+    int-to-byte v2, v0
+
+    aput-byte v2, p2, v1
+
+    .line 406
+    const/4 v1, 0x3
+
+    #v1=(PosByte);
+    goto :goto_0
+.end method
+
+.method public static decodeWebSafe(Ljava/lang/String;)[B
+    .locals 3
+    .parameter "s"
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lcom/kabam/billing/util/Base64DecoderException;
+        }
+    .end annotation
+
+    .prologue
+    .line 431
+    invoke-virtual {p0}, Ljava/lang/String;->getBytes()[B
+
+    move-result-object v0
+
+    .line 432
+    .local v0, bytes:[B
+    #v0=(Reference);
+    const/4 v1, 0x0
+
+    #v1=(Null);
+    array-length v2, v0
+
+    #v2=(Integer);
+    invoke-static {v0, v1, v2}, Lcom/kabam/billing/util/Base64;->decodeWebSafe([BII)[B
+
+    move-result-object v1
+
+    #v1=(Reference);
+    return-object v1
+.end method
+
+.method public static decodeWebSafe([B)[B
+    .locals 2
+    .parameter "source"
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lcom/kabam/billing/util/Base64DecoderException;
+        }
+    .end annotation
+
+    .prologue
+    .line 458
+    const/4 v0, 0x0
+
+    #v0=(Null);
+    array-length v1, p0
+
+    #v1=(Integer);
+    invoke-static {p0, v0, v1}, Lcom/kabam/billing/util/Base64;->decodeWebSafe([BII)[B
+
+    move-result-object v0
+
+    #v0=(Reference);
+    return-object v0
+.end method
+
+.method public static decodeWebSafe([BII)[B
+    .locals 1
+    .parameter "source"
+    .parameter "off"
+    .parameter "len"
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lcom/kabam/billing/util/Base64DecoderException;
+        }
+    .end annotation
+
+    .prologue
+    .line 489
+    sget-object v0, Lcom/kabam/billing/util/Base64;->WEBSAFE_DECODABET:[B
+
+    #v0=(Reference);
+    invoke-static {p0, p1, p2, v0}, Lcom/kabam/billing/util/Base64;->decode([BII[B)[B
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public static encode([B)Ljava/lang/String;
+    .locals 4
+    .parameter "source"
+
+    .prologue
+    .line 247
+    const/4 v0, 0x0
+
+    #v0=(Null);
+    array-length v1, p0
+
+    #v1=(Integer);
+    sget-object v2, Lcom/kabam/billing/util/Base64;->ALPHABET:[B
+
+    #v2=(Reference);
+    const/4 v3, 0x1
+
+    #v3=(One);
+    invoke-static {p0, v0, v1, v2, v3}, Lcom/kabam/billing/util/Base64;->encode([BII[BZ)Ljava/lang/String;
+
+    move-result-object v0
+
+    #v0=(Reference);
+    return-object v0
+.end method
+
+.method public static encode([BII[BZ)Ljava/lang/String;
+    .locals 4
+    .parameter "source"
+    .parameter "off"
+    .parameter "len"
+    .parameter "alphabet"
+    .parameter "doPadding"
+
+    .prologue
+    .line 274
+    const v2, 0x7fffffff
+
+    #v2=(Integer);
+    invoke-static {p0, p1, p2, p3, v2}, Lcom/kabam/billing/util/Base64;->encode([BII[BI)[B
+
+    move-result-object v0
+
+    .line 275
+    .local v0, outBuff:[B
+    #v0=(Reference);
+    array-length v1, v0
+
+    .line 279
+    .local v1, outLen:I
+    :goto_0
+    #v1=(Integer);v3=(Conflicted);
+    if-nez p4, :cond_0
+
+    if-gtz v1, :cond_1
+
+    .line 286
+    :cond_0
+    new-instance v2, Ljava/lang/String;
+
+    #v2=(UninitRef);
+    const/4 v3, 0x0
+
+    #v3=(Null);
+    invoke-direct {v2, v0, v3, v1}, Ljava/lang/String;-><init>([BII)V
+
+    #v2=(Reference);
+    return-object v2
+
+    .line 280
+    :cond_1
+    #v2=(Integer);v3=(Conflicted);
+    add-int/lit8 v2, v1, -0x1
+
+    aget-byte v2, v0, v2
+
+    #v2=(Byte);
+    const/16 v3, 0x3d
+
+    #v3=(PosByte);
+    if-ne v2, v3, :cond_0
+
+    .line 283
+    add-int/lit8 v1, v1, -0x1
+
+    goto :goto_0
+.end method
+
+.method public static encode([BII[BI)[B
+    .locals 13
+    .parameter "source"
+    .parameter "off"
+    .parameter "len"
+    .parameter "alphabet"
+    .parameter "maxLineLength"
+
+    .prologue
+    .line 301
+    add-int/lit8 v1, p2, 0x2
+
+    #v1=(Integer);
+    div-int/lit8 v11, v1, 0x3
+
+    .line 302
+    .local v11, lenDiv3:I
+    #v11=(Integer);
+    mul-int/lit8 v10, v11, 0x4
+
+    .line 304
+    .local v10, len43:I
+    #v10=(Integer);
+    div-int v1, v10, p4
+
+    .line 303
+    add-int/2addr v1, v10
+
+    new-array v4, v1, [B
+
+    .line 306
+    .local v4, outBuff:[B
+    #v4=(Reference);
+    const/4 v7, 0x0
+
+    .line 307
+    .local v7, d:I
+    #v7=(Null);
+    const/4 v5, 0x0
+
+    .line 308
+    .local v5, e:I
+    #v5=(Null);
+    add-int/lit8 v9, p2, -0x2
+
+    .line 309
+    .local v9, len2:I
+    #v9=(Integer);
+    const/4 v12, 0x0
+
+    .line 310
+    .local v12, lineLength:I
+    :goto_0
+    #v0=(Conflicted);v2=(Conflicted);v5=(Integer);v7=(Integer);v8=(Conflicted);v12=(Integer);
+    if-lt v7, v9, :cond_2
+
+    .line 332
+    if-ge v7, p2, :cond_1
+
+    .line 333
+    add-int v2, v7, p1
+
+    #v2=(Integer);
+    sub-int v3, p2, v7
+
+    #v3=(Integer);
+    move-object v1, p0
+
+    #v1=(Reference);
+    move-object/from16 v6, p3
+
+    #v6=(Reference);
+    invoke-static/range {v1 .. v6}, Lcom/kabam/billing/util/Base64;->encode3to4([BII[BI[B)[B
+
+    .line 335
+    add-int/lit8 v12, v12, 0x4
+
+    .line 336
+    move/from16 v0, p4
+
+    #v0=(Integer);
+    if-ne v12, v0, :cond_0
+
+    .line 338
+    add-int/lit8 v1, v5, 0x4
+
+    #v1=(Integer);
+    const/16 v2, 0xa
+
+    #v2=(PosByte);
+    aput-byte v2, v4, v1
+
+    .line 339
+    add-int/lit8 v5, v5, 0x1
+
+    .line 341
+    :cond_0
+    #v1=(Conflicted);v2=(Integer);
+    add-int/lit8 v5, v5, 0x4
+
+    .line 344
+    :cond_1
+    #v0=(Conflicted);v2=(Conflicted);v3=(Conflicted);v6=(Conflicted);
+    sget-boolean v1, Lcom/kabam/billing/util/Base64;->$assertionsDisabled:Z
+
+    #v1=(Boolean);
+    if-nez v1, :cond_4
+
+    array-length v1, v4
+
+    #v1=(Integer);
+    if-eq v5, v1, :cond_4
+
+    new-instance v1, Ljava/lang/AssertionError;
+
+    #v1=(UninitRef);
+    invoke-direct {v1}, Ljava/lang/AssertionError;-><init>()V
+
+    #v1=(Reference);
+    throw v1
+
+    .line 316
+    :cond_2
+    #v1=(Integer);v3=(Uninit);v6=(Uninit);
+    add-int v1, v7, p1
+
+    aget-byte v1, p0, v1
+
+    #v1=(Byte);
+    shl-int/lit8 v1, v1, 0x18
+
+    #v1=(Integer);
+    ushr-int/lit8 v1, v1, 0x8
+
+    .line 317
+    add-int/lit8 v2, v7, 0x1
+
+    #v2=(Integer);
+    add-int/2addr v2, p1
+
+    aget-byte v2, p0, v2
+
+    #v2=(Byte);
+    shl-int/lit8 v2, v2, 0x18
+
+    #v2=(Integer);
+    ushr-int/lit8 v2, v2, 0x10
+
+    .line 316
+    #v2=(Char);
+    or-int/2addr v1, v2
+
+    .line 318
+    add-int/lit8 v2, v7, 0x2
+
+    #v2=(Integer);
+    add-int/2addr v2, p1
+
+    aget-byte v2, p0, v2
+
+    #v2=(Byte);
+    shl-int/lit8 v2, v2, 0x18
+
+    #v2=(Integer);
+    ushr-int/lit8 v2, v2, 0x18
+
+    .line 316
+    #v2=(Char);
+    or-int v8, v1, v2
+
+    .line 319
+    .local v8, inBuff:I
+    #v8=(Integer);
+    ushr-int/lit8 v1, v8, 0x12
+
+    #v1=(Char);
+    aget-byte v1, p3, v1
+
+    #v1=(Byte);
+    aput-byte v1, v4, v5
+
+    .line 320
+    add-int/lit8 v1, v5, 0x1
+
+    #v1=(Integer);
+    ushr-int/lit8 v2, v8, 0xc
+
+    #v2=(Integer);
+    and-int/lit8 v2, v2, 0x3f
+
+    aget-byte v2, p3, v2
+
+    #v2=(Byte);
+    aput-byte v2, v4, v1
+
+    .line 321
+    add-int/lit8 v1, v5, 0x2
+
+    ushr-int/lit8 v2, v8, 0x6
+
+    #v2=(Integer);
+    and-int/lit8 v2, v2, 0x3f
+
+    aget-byte v2, p3, v2
+
+    #v2=(Byte);
+    aput-byte v2, v4, v1
+
+    .line 322
+    add-int/lit8 v1, v5, 0x3
+
+    and-int/lit8 v2, v8, 0x3f
+
+    #v2=(Integer);
+    aget-byte v2, p3, v2
+
+    #v2=(Byte);
+    aput-byte v2, v4, v1
+
+    .line 324
+    add-int/lit8 v12, v12, 0x4
+
+    .line 325
+    move/from16 v0, p4
+
+    #v0=(Integer);
+    if-ne v12, v0, :cond_3
+
+    .line 326
+    add-int/lit8 v1, v5, 0x4
+
+    const/16 v2, 0xa
+
+    #v2=(PosByte);
+    aput-byte v2, v4, v1
+
+    .line 327
+    add-int/lit8 v5, v5, 0x1
+
+    .line 328
+    const/4 v12, 0x0
+
+    .line 310
+    :cond_3
+    #v2=(Byte);
+    add-int/lit8 v7, v7, 0x3
+
+    add-int/lit8 v5, v5, 0x4
+
+    goto :goto_0
+
+    .line 345
+    .end local v8           #inBuff:I
+    :cond_4
+    #v0=(Conflicted);v2=(Conflicted);v3=(Conflicted);v6=(Conflicted);v8=(Conflicted);
+    return-object v4
+.end method
+
+.method private static encode3to4([BII[BI[B)[B
+    .locals 5
+    .parameter "source"
+    .parameter "srcOffset"
+    .parameter "numSigBytes"
+    .parameter "destination"
+    .parameter "destOffset"
+    .parameter "alphabet"
+
+    .prologue
+    const/16 v4, 0x3d
+
+    #v4=(PosByte);
+    const/4 v1, 0x0
+
+    .line 210
+    #v1=(Null);
+    if-lez p2, :cond_1
+
+    aget-byte v2, p0, p1
+
+    #v2=(Byte);
+    shl-int/lit8 v2, v2, 0x18
+
+    #v2=(Integer);
+    ushr-int/lit8 v2, v2, 0x8
+
+    move v3, v2
+
+    .line 211
+    :goto_0
+    #v2=(Conflicted);v3=(Integer);
+    const/4 v2, 0x1
+
+    #v2=(One);
+    if-le p2, v2, :cond_2
+
+    add-int/lit8 v2, p1, 0x1
+
+    #v2=(Integer);
+    aget-byte v2, p0, v2
+
+    #v2=(Byte);
+    shl-int/lit8 v2, v2, 0x18
+
+    #v2=(Integer);
+    ushr-int/lit8 v2, v2, 0x10
+
+    .line 210
+    :goto_1
+    #v2=(Char);
+    or-int/2addr v2, v3
+
+    .line 212
+    #v2=(Integer);
+    const/4 v3, 0x2
+
+    #v3=(PosByte);
+    if-le p2, v3, :cond_0
+
+    add-int/lit8 v1, p1, 0x2
+
+    #v1=(Integer);
+    aget-byte v1, p0, v1
+
+    #v1=(Byte);
+    shl-int/lit8 v1, v1, 0x18
+
+    #v1=(Integer);
+    ushr-int/lit8 v1, v1, 0x18
+
+    .line 210
+    :cond_0
+    #v1=(Char);
+    or-int v0, v2, v1
+
+    .line 214
+    .local v0, inBuff:I
+    #v0=(Integer);
+    packed-switch p2, :pswitch_data_0
+
+    .line 234
+    :goto_2
+    #v1=(Integer);
+    return-object p3
+
+    .end local v0           #inBuff:I
+    :cond_1
+    #v0=(Uninit);v1=(Null);v2=(Uninit);v3=(Uninit);
+    move v3, v1
+
+    .line 210
+    #v3=(Null);
+    goto :goto_0
+
+    :cond_2
+    #v2=(One);v3=(Integer);
+    move v2, v1
+
+    .line 211
+    #v2=(Null);
+    goto :goto_1
+
+    .line 216
+    .restart local v0       #inBuff:I
+    :pswitch_0
+    #v0=(Integer);v1=(Char);v2=(Integer);v3=(PosByte);
+    ushr-int/lit8 v1, v0, 0x12
+
+    aget-byte v1, p5, v1
+
+    #v1=(Byte);
+    aput-byte v1, p3, p4
+
+    .line 217
+    add-int/lit8 v1, p4, 0x1
+
+    #v1=(Integer);
+    ushr-int/lit8 v2, v0, 0xc
+
+    and-int/lit8 v2, v2, 0x3f
+
+    aget-byte v2, p5, v2
+
+    #v2=(Byte);
+    aput-byte v2, p3, v1
+
+    .line 218
+    add-int/lit8 v1, p4, 0x2
+
+    ushr-int/lit8 v2, v0, 0x6
+
+    #v2=(Integer);
+    and-int/lit8 v2, v2, 0x3f
+
+    aget-byte v2, p5, v2
+
+    #v2=(Byte);
+    aput-byte v2, p3, v1
+
+    .line 219
+    add-int/lit8 v1, p4, 0x3
+
+    and-int/lit8 v2, v0, 0x3f
+
+    #v2=(Integer);
+    aget-byte v2, p5, v2
+
+    #v2=(Byte);
+    aput-byte v2, p3, v1
+
+    goto :goto_2
+
+    .line 222
+    :pswitch_1
+    #v1=(Char);v2=(Integer);
+    ushr-int/lit8 v1, v0, 0x12
+
+    aget-byte v1, p5, v1
+
+    #v1=(Byte);
+    aput-byte v1, p3, p4
+
+    .line 223
+    add-int/lit8 v1, p4, 0x1
+
+    #v1=(Integer);
+    ushr-int/lit8 v2, v0, 0xc
+
+    and-int/lit8 v2, v2, 0x3f
+
+    aget-byte v2, p5, v2
+
+    #v2=(Byte);
+    aput-byte v2, p3, v1
+
+    .line 224
+    add-int/lit8 v1, p4, 0x2
+
+    ushr-int/lit8 v2, v0, 0x6
+
+    #v2=(Integer);
+    and-int/lit8 v2, v2, 0x3f
+
+    aget-byte v2, p5, v2
+
+    #v2=(Byte);
+    aput-byte v2, p3, v1
+
+    .line 225
+    add-int/lit8 v1, p4, 0x3
+
+    aput-byte v4, p3, v1
+
+    goto :goto_2
+
+    .line 228
+    :pswitch_2
+    #v1=(Char);v2=(Integer);
+    ushr-int/lit8 v1, v0, 0x12
+
+    aget-byte v1, p5, v1
+
+    #v1=(Byte);
+    aput-byte v1, p3, p4
+
+    .line 229
+    add-int/lit8 v1, p4, 0x1
+
+    #v1=(Integer);
+    ushr-int/lit8 v2, v0, 0xc
+
+    and-int/lit8 v2, v2, 0x3f
+
+    aget-byte v2, p5, v2
+
+    #v2=(Byte);
+    aput-byte v2, p3, v1
+
+    .line 230
+    add-int/lit8 v1, p4, 0x2
+
+    aput-byte v4, p3, v1
+
+    .line 231
+    add-int/lit8 v1, p4, 0x3
+
+    aput-byte v4, p3, v1
+
+    goto :goto_2
+
+    .line 214
+    :pswitch_data_0
+    .packed-switch 0x1
+        :pswitch_2
+        :pswitch_1
+        :pswitch_0
+    .end packed-switch
+.end method
+
+.method public static encodeWebSafe([BZ)Ljava/lang/String;
+    .locals 3
+    .parameter "source"
+    .parameter "doPadding"
+
+    .prologue
+    .line 258
+    const/4 v0, 0x0
+
+    #v0=(Null);
+    array-length v1, p0
+
+    #v1=(Integer);
+    sget-object v2, Lcom/kabam/billing/util/Base64;->WEBSAFE_ALPHABET:[B
+
+    #v2=(Reference);
+    invoke-static {p0, v0, v1, v2, p1}, Lcom/kabam/billing/util/Base64;->encode([BII[BZ)Ljava/lang/String;
+
+    move-result-object v0
+
+    #v0=(Reference);
+    return-object v0
+.end method
+
+*/}

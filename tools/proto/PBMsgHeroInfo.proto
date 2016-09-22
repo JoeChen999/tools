@@ -1,0 +1,4 @@
+message PBMsgHeroInfo
+{
+    optional int32 score = 1;
+}

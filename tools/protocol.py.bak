@@ -1,0 +1,53 @@
+# -*- coding: utf-8 -*-
+
+import httplib
+import urllib
+import hashlib
+import base64
+import time
+import json
+
+def getdata(pname):
+    if pname=='scouting.php':
+        data='cid=16&txcoord=357&tycoord=112&instant=true&useitem=false&gems=6&ilist=1&mobileid=Cb1&platformid=201&become_user_id=&become_password=&debug=1&gver=15.0.0&gameSlot=679&theme=1'
+    elif pname=='getEmail.php':
+        data='emailTo=Joe&subject=Dhhfhc&message=Fhdjdh&requestType=COMPOSED_MAIL&mobileid=Cb1&platformid=201&become_user_id=&become_password=&debug=1&gver=15.0.0&gameSlot=836&theme=1'
+    elif pname=='sendChat.php':
+        data='ctype=1&additionalInfo=&lang=en&comment=Dhbd&ctypeId=1&nm=&sid=1&mobileid=Cb1&platformid=201&become_user_id=&become_password=&debug=1&gver=15.0.0&gameSlot=847&theme=1'
+    elif pname=='updateSeed.php':
+        data='udid=Unkown&m_deviceIFA=UNKNOWN&m_deviceIFV=UNKNOWN&limit_ad=1&openUDID=365f9b75e95cedb653185a4d6e3716b451736382&forceUpdate=0&maxInboxId=77&maxReportId=38&maxSendId=77&lang=en&mobileid=Cb1&platformid=201&become_user_id=&become_password=&debug=1&gver=15.0.0&gameSlot=862&theme=1'
+     
+    return data
+    
+def generateParams(data):
+    ts=time.time()
+    gamenumber=int(ts)
+    s=data+'&gameNumber='+str(gamenumber)
+    items=s.split(u'&')
+    tmpArray={}
+    for item in items:
+        key =item.split('=')[0]
+        value=item.split('=')[1]
+        tmpArray[key]=value
+    keys=tmpArray.keys()
+    keys.sort()
+    i=0
+    for skey in keys:
+        if i==0:
+            s1=skey+'='+tmpArray[skey]
+        else:
+            s1=s1+'&'+skey+'='+tmpArray[skey]
+        i=i+1
+    s1=s1.toLower()
+    s2=s1+'20f6e2f8769fb66faf7e7daccf9d342e'
+    h=hashlib.md5()
+    h.update(s2)
+    gamekey=h.hexdigest()
+    paramdata=s+'&gameKey='+gamekey
+    b64data=base64.b64encode(paramdata)
+    if b64data[len(b64data)-2]=='=':
+        b64data=b64data[:len(b64data)-2]+'%3d%3d'
+    elif b64data[len(b64data)-1]=='=':
+        b64data=b64data[:len(b64data)-1]+'%3d'
+    return b64data
+    

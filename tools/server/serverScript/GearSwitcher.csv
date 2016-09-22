@@ -1,0 +1,20 @@
+key,value,type,comment
+system,1,1,1/0
+level,1,1,1/0
+star,1,1,1/0
+mount,1,1,1/0
+fte,1,1,1/0
+maxLevel,10,1,1~20
+dressRequire,7-1/15-1,2,buildingType-Level[/buildingType-Level]
+starUpRequire,7-3/15-3,2,buildingType-Level[/buildingType-Level]
+levelUpRequire,7-5/15-5,2,buildingType-Level[/buildingType-Level]
+mountRequire,7-7/15-7,2,buildingType-Level[/buildingType-Level]
+levelupTools,5001/5002/5003/5004,3,use tools
+useItemRate,1,3,
+useToolsRate,1,3,
+dropRequirePlayer,2,3,playerLevel
+dropRequireBuilding,7-1/15-1,2,buildingType-Level[/buildingType-Level]
+gearUnlockLevelAlter,1,3,gear to unlock star level alter
+skillRareSumAlter,75,3,gear to unlock star sum rare
+playerAttackTileLimit,200,3,player daily march attack limit
+gearLevelupCostExpRate,80,3,levelup eat other gear exp rate

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testcases loops="1">
+	<smoke loops="1">
+		<!--testcase Name="FTE" loops="1"></testcase>
+		<testcase Name="View_switch" loops="1"></testcase>
+		<testcase Name="Field_resource_buildings" loops="1"></testcase>
+		<testcase Name="Player_info_page" loops="1"></testcase>
+		<testcase Name="chat" loops="5"></testcase>
+		<testcase Name="Castle" loops="1"></testcase>
+		<testcase Name="Resource_info_page" loops="1"></testcase>
+		<testcase Name="Castle" loops="1"></testcase-->
+		<testcase Name="mail" loops="1"></testcase>
+		<!--testcase Name="Alliance" loops="1"></testcase>
+		<testcase Name="Gamble" loops="1"></testcase>
+		<testcase Name="Quest" loops="1"></testcase>
+		<testcase Name="Chat" loops="1"></testcase>
+		<testcase Name="Buff_info_page" loops="1"></testcase-->		
+	</smoke>
+</testcases>
+

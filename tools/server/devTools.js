@@ -1,0 +1,24 @@
+document.write(' <table height="200">');
+document.write('<tr><td valign="top" ><a href="http://10.80.0.207:8000"><img src="KBN_logo.png"></a></td></tr>'); 
+ document.write('<tr><td><HR  width="100%" color=#011100 SIZE=2></td></tr>');
+document.write('<tr><td bgcolor="#006633" valign="top" style="font-size: 18px;color:white">Dev environment tools</td></tr>');
+document.write('<tr><td><HR  width="100%" color=#011100 SIZE=2></td></tr>');
+document.write('</table>');
+document.write('<table valign="top">');
+document.write('<tr><td style="font-size:18px;font-weight:bold;color: green" align="center">BE tools</td></tr>');
+document.write('<tr><td><HR  width="180" color=#007500 SIZE=2></td><tr>');
+document.write('<tr><td style="font-size: 18px;color:red" valign="top"><a href="codeUpdate.html">code update</a></td></tr>');
+document.write('<tr><td style="font-size: 18px;color:red" valign="top"><a href="DBupdate.html">initworld sql update</a></td></tr>');
+document.write('<tr><td style="font-size: 18px;color:red" valign="top"><a href="DBAupdate.html">sql file execute</a></td></tr>');
+document.write('<tr><td style="font-size: 18px;color:red" valign="top"><a href="serverPush.html">code push</a></td></tr>');
+document.write('<tr><td style="font-size: 18px;color:red" valign="top"><a href="transGDS.html">GDS file transport</a></td></tr>');
+document.write('<tr><td><HR  width="180" color=#007500 SIZE=2></td><tr>');
+document.write('</table>');
+document.write('<table valign="top">');
+document.write('<tr><td style="font-size:18px;font-weight:bold;color: green" align="center">QA tools</td></tr>');
+document.write('<tr><td><HR  width="180" color=#007500 SIZE=2></td><tr>');
+document.write('<tr><td style="font-size: 18px;color:red" valign="top"><a href="dist/phpTest.tar.gz">QA tools downloads</a></td></tr>');
+document.write('<tr><td style="font-size: 18px;color:red" valign="top"><a href="Qashare/index.html">QA Doc share</a></td></tr>');
+document.write('<tr><td style="font-size: 18px;color:red" valign="top"><a href="protoTest.html">Protobuf test</a></td></tr>');
+document.write('</table>');
+

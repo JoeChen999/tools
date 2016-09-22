@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/mobile1/!svn/ver/6302/trunk/Tools/IOS/AutoBuild
+END
+iosPaymentEnv.sh
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/mobile1/!svn/ver/3286/trunk/Tools/IOS/AutoBuild/iosPaymentEnv.sh
+END
+iosAdHocEnv.sh
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/mobile1/!svn/ver/3328/trunk/Tools/IOS/AutoBuild/iosAdHocEnv.sh
+END
+iosDevEnv.sh
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/mobile1/!svn/ver/3286/trunk/Tools/IOS/AutoBuild/iosDevEnv.sh
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/mobile1/!svn/ver/3356/trunk/Tools/IOS/AutoBuild/readme.txt
+END
+iosAutoBuild.sh
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/mobile1/!svn/ver/5885/trunk/Tools/IOS/AutoBuild/iosAutoBuild.sh
+END
+iosGlobalEnv.sh
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/mobile1/!svn/ver/6302/trunk/Tools/IOS/AutoBuild/iosGlobalEnv.sh
+END
+iosReleaseEnv.sh
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/mobile1/!svn/ver/3286/trunk/Tools/IOS/AutoBuild/iosReleaseEnv.sh
+END

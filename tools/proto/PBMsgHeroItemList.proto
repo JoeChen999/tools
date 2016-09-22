@@ -1,0 +1,9 @@
+message PBMsgHeroItemList {
+    message PBMsgHeroItem {
+        required int32 itemId = 1;
+        required int32 addRenown = 2;
+        required int32 own = 3;
+    }
+    repeated PBMsgHeroItem heroItem = 1;
+}
+

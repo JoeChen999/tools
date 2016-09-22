@@ -1,0 +1,36 @@
+message PBMsgPveInfo
+{
+    message PBMsgPveLevelInfo
+    {
+        required int32 levelID = 1;
+
+        optional int32 highestScore = 2;
+        optional int32 highestStar = 3;
+        optional int32 highestSpeed = 4;
+        optional int32 highestVitality = 5;
+        optional int32 highestTactics = 6;
+    
+        optional int32 lastScore = 7;
+        optional int32 lastStar = 8;
+        optional int32 lastSpeed = 9;
+        optional int32 lastVitality = 10;
+        optional int32 lastTactics = 11;
+    }
+    
+    message PBMsgPveHidenBossInfo
+    {
+        required int32 levelID = 1;
+        optional int64 activeTime = 2;
+    }
+
+    optional int32 totalScore = 1;
+    optional int32 totalStars = 2;
+    repeated PBMsgPveLevelInfo levelInfo = 3;
+
+    optional bytes staminaInfo = 4;
+    optional bytes resultInfo = 5;
+    optional bytes marchInfo = 6;
+    
+    repeated PBMsgPveHidenBossInfo hidenBossInfo = 7;
+
+}

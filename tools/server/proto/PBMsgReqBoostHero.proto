@@ -1,0 +1,5 @@
+message PBMsgReqBoostHero
+{
+  required int64 hid = 1;
+  required int32 iid = 2;
+}

@@ -1,0 +1,5 @@
+message PBMsgReqPlayerInfo
+{
+  optional string pveInfoVer = 1;
+  optional string heroInfoVer = 2;
+}

@@ -1,0 +1,39 @@
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+</head>
+<body>
+<style>
+td{
+	padding: 4px;
+}
+</style>
+<table width="100%" height="100%">
+    <tr>
+        <td width="210" height="100%" valign="top">
+            <script language="javascript" src="devTools.js"></script>
+        </td>
+        <td bgcolor="#ccffff" align="center">
+            <table>
+                    <p style="font-size:38px;color:orange;font-weight:bold;">Kabam <span style="margin-left:10px;font-weight:normal;color:#222;">protocol buffer test</span></p>
+                    <HR  width="62%" color=#007500 SIZE=2><br>
+                    <table width="100%">
+                        <tr>
+                            <td align="center" style="font-size: 18px;color:red">add protobuf protocol</td>															
+                        </tr>
+                    </table>
+                    <HR  width="62%" color=#007500 SIZE=2><br>
+                    <table border="2" align="center" >
+                    <form name="form2" method="POST" enctype="multipart/form-data" action=""> 
+                        <tr><td>php name</td><td style="font-size:14px;color:red"><input type='input' name='name'>(php interface name)</td></tr>
+                        <tr><td>request class name</td><td style="font-size:14px;color:red"><input type='input' name='requestClass'>(request message name)</td></tr>
+                        <tr><td>request proto file</td><td><input type='file' name='requestProto'></td></tr>
+                        <tr><td>response class name</td><td style="font-size:14px;color:red"><input type='input' name='responseClass'>(response message name)</td></tr>
+                        <tr><td>response proto file</td><td><input type='file' name='responseProto'></td></tr>
+                        <tr><td colspan=2 align="center"><input type='hidden' name='action' value="addProto"><input type='submit' style="width:100" value='add'></td></tr>
+                    </table>
+            </table>
+        </td>
+</table>
+</body>
+</html>

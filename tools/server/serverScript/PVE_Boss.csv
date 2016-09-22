@@ -1,0 +1,152 @@
+ID,NAME,LEVEL_BOSS_ICON,HIDDEN_BOSS_ICON,BOSS_BG,LEVEL,RECOVER_TIME,UINT1,UINT2,UINT3,UINT4,UINT5,UINT6,UINT7,UINT8,UINT9,UINT10,UINT11,UINT12,UINT13,UINT14,UINT15,UINT16,UINT17,UINT18,UINT19,UINT20,CAN_VIEW_EQUIP,EQUIP1,EQUIP2,EQUIP3,EQUIP4,EQUIP5,DISPPEAR_TIME,ATTACK_NUM,UINT21,UINT22,UINT23,UINT24,UINT25,UINT26,UINT27,UINT28,UINT29,UINT30
+INT,STRING,STRING,STRING,STRING,INT,INT,INT,INT,INT,INT,INT,INT,INT,INT,INT,INT,INT,INT,INT,INT,INT,INT,INT,INT,INT,INT,INT,INT,INT,INT,INT,INT,STRING,STRING,INT,INT,INT,INT,INT,INT,INT,INT,INT,INT
+100100100,Campaign.BossName_i100100100,potrait_Drust mac Erp,collection_Drust mac Erp,bossinfo-bg-lv1,1,0,0,0,0,117,117,117,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+100100101,Campaign.BossName_i100100101,potrait_Drust mac Erp,collection_Drust mac Erp,bossinfo-bg-lv1,2,0,0,0,0,153,153,153,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+100100102,Campaign.BossName_i100100102,potrait_Drust mac Erp,collection_Drust mac Erp,bossinfo-bg-lv1,3,0,0,0,0,200,200,200,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+100100103,Campaign.BossName_i100100103,potrait_Pict1,collection_Pict1,bossinfo-bg-lv1,4,0,0,0,0,260,260,260,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+100100104,Campaign.BossName_i100100104,potrait_Fey Knight,collection_Fey Knight,bossinfo-bg-lv2,5,0,0,0,0,340,340,340,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+100101100,Campaign.BossName_i100101100,potrait_Drust mac Erp,collection_Drust mac Erp,bossinfo-bg-lv1,2,0,0,0,0,443,443,443,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+100101101,Campaign.BossName_i100101101,potrait_Drust mac Erp,collection_Drust mac Erp,bossinfo-bg-lv1,3,0,0,0,0,580,580,580,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+100101102,Campaign.BossName_i100101102,potrait_Drust mac Erp,collection_Drust mac Erp,bossinfo-bg-lv1,4,0,0,0,0,760,760,760,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+100101103,Campaign.BossName_i100101103,potrait_Pict2,collection_Pict2,bossinfo-bg-lv1,5,0,0,0,0,993,993,993,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+100101104,Campaign.BossName_i100101104,potrait_Lake Serpent,collection_Lake Serpent,bossinfo-bg-lv2,6,0,0,0,0,1300,1300,1300,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+100102100,Campaign.BossName_i100102100,potrait_Rebel1,collection_Rebel1,bossinfo-bg-lv1,3,0,0,0,0,1700,1700,1700,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+100102101,Campaign.BossName_i100102101,potrait_Rebel2,collection_Rebel2,bossinfo-bg-lv1,4,0,0,0,0,2223,2223,2223,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+100102102,Campaign.BossName_i100102102,potrait_Pict1,collection_Pict1,bossinfo-bg-lv1,5,0,0,0,0,2907,2907,2907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+100102103,Campaign.BossName_i100102103,potrait_Rebel1,collection_Rebel1,bossinfo-bg-lv1,6,0,0,0,0,3803,3803,3803,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+100102104,Campaign.BossName_i100102104,potrait_King Maleagant,collection_King Maleagant,bossinfo-bg-lv2,7,0,0,0,0,4973,4973,4973,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+100103100,Campaign.BossName_i100103100,potrait_Ghost Army,collection_Ghost Army,bossinfo-bg-lv1,4,0,0,0,0,6507,6507,6507,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+100103101,Campaign.BossName_i100103101,potrait_Pict2,collection_Pict2,bossinfo-bg-lv1,5,0,0,0,0,8510,8510,8510,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+100103102,Campaign.BossName_i100103102,potrait_Pict1,collection_Pict1,bossinfo-bg-lv1,6,0,0,0,0,11130,11130,11130,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+100103103,Campaign.BossName_i100103103,potrait_Drust mac Erp,collection_Drust mac Erp,bossinfo-bg-lv1,7,0,0,0,0,14557,14557,14557,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+100103104,Campaign.BossName_i100103104,potrait_Hueil mac Caw,collection_Hueil mac Caw,bossinfo-bg-lv3,8,0,0,0,0,19040,19040,19040,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+101100100,Campaign.BossName_i101100100,potrait_Pict2,collection_Pict2,bossinfo-bg-lv1,5,0,0,0,0,167,167,167,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+101100101,Campaign.BossName_i101100101,potrait_Hueil mac Caw,collection_Hueil mac Caw,bossinfo-bg-lv1,6,0,0,0,0,227,227,227,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+101100102,Campaign.BossName_i101100102,potrait_Rebel1,collection_Rebel1,bossinfo-bg-lv1,7,0,0,0,0,310,310,310,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+101100103,Campaign.BossName_i101100103,potrait_Hueil mac Caw,collection_Hueil mac Caw,bossinfo-bg-lv1,8,0,0,0,0,423,423,423,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+101100104,Campaign.BossName_i101100104,potrait_Red Knight,collection_Red Knight,bossinfo-bg-lv2,9,0,0,0,0,577,577,577,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+101101100,Campaign.BossName_i101101100,potrait_Black Knight,collection_Black Knight,bossinfo-bg-lv1,6,0,0,0,0,787,787,787,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+101101101,Campaign.BossName_i101101101,potrait_Green Knight,collection_Green Knight,bossinfo-bg-lv1,7,0,0,0,0,1073,1073,1073,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+101101102,Campaign.BossName_i101101102,potrait_Purple Knight,collection_Purple Knight,bossinfo-bg-lv1,8,0,0,0,0,1463,1463,1463,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+101101103,Campaign.BossName_i101101103,potrait_Blue Knight,collection_Blue Knight,bossinfo-bg-lv1,9,0,0,0,0,1993,1993,1993,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+101101104,Campaign.BossName_i101101104,potrait_Red Knight,collection_Red Knight,bossinfo-bg-lv2,10,0,0,0,0,2717,2717,2717,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+101102100,Campaign.BossName_i101102100,potrait_Lots of Knights,collection_Lots of Knights,bossinfo-bg-lv1,7,0,0,0,0,3703,3703,3703,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+101102101,Campaign.BossName_i101102101,potrait_Hueil mac Caw,collection_Hueil mac Caw,bossinfo-bg-lv1,8,0,0,0,0,5047,5047,5047,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+101102102,Campaign.BossName_i101102102,potrait_Seven Evil Knights,collection_Seven Evil Knights,bossinfo-bg-lv1,9,0,0,0,0,6877,6877,6877,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+101102103,Campaign.BossName_i101102103,potrait_Pict1,collection_Pict1,bossinfo-bg-lv1,10,0,0,0,0,9370,9370,9370,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+101102104,Campaign.BossName_i101102104,potrait_Mordred,collection_Mordred,bossinfo-bg-lv2,11,0,0,0,0,12770,12770,12770,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+101103100,Campaign.BossName_i101103100,potrait_Maloc,collection_Maloc,bossinfo-bg-lv1,8,0,0,0,0,17400,17400,17400,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+101103101,Campaign.BossName_i101103101,potrait_Alec,collection_Alec,bossinfo-bg-lv1,9,0,0,0,0,23710,23710,23710,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+101103102,Campaign.BossName_i101103102,potrait_Egreas,collection_Egreas,bossinfo-bg-lv1,10,0,0,0,0,32310,32310,32310,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+101103103,Campaign.BossName_i101103103,potrait_Hueil mac Caw,collection_Hueil mac Caw,bossinfo-bg-lv1,11,0,0,0,0,44030,44030,44030,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+101103104,Campaign.BossName_i101103104,potrait_Talorc the Druid,collection_Talorc the Druid,bossinfo-bg-lv3,12,0,0,0,0,60000,60000,60000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+102100100,Campaign.BossName_i102100100,potrait_Pict2,collection_Pict2,bossinfo-bg-lv1,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24321,24321,24321,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+102100101,Campaign.BossName_i102100101,potrait_Talorc the Druid,collection_Talorc the Druid,bossinfo-bg-lv1,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,60803,60803,60803,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+102100102,Campaign.BossName_i102100102,potrait_Pict1,collection_Pict1,bossinfo-bg-lv1,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,112487,112487,112487,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+102100103,Campaign.BossName_i102100103,potrait_Talorc the Druid,collection_Talorc the Druid,bossinfo-bg-lv1,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,91205,91205,91205,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+102100104,Campaign.BossName_i102100104,potrait_Questing Beast,collection_Questing Beast,bossinfo-bg-lv2,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,121607,121607,121607,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+102101100,Campaign.BossName_i102101100,potrait_Talorc the Druid,collection_Talorc the Druid,bossinfo-bg-lv1,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3040,3040,3040,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+102101101,Campaign.BossName_i102101101,potrait_Talorc the Druid,collection_Talorc the Druid,bossinfo-bg-lv1,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,121607,121607,121607,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+102101102,Campaign.BossName_i102101102,potrait_Talorc the Druid,collection_Talorc the Druid,bossinfo-bg-lv1,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,170250,170250,170250,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+102101103,Campaign.BossName_i102101103,potrait_Talorc the Druid,collection_Talorc the Druid,bossinfo-bg-lv1,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,182411,182411,182411,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+102101104,Campaign.BossName_i102101104,potrait_King Beneath the Hill,collection_King Beneath the Hill,bossinfo-bg-lv2,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,224974,224974,224974,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+102102100,Campaign.BossName_i102102100,potrait_The Green Hag,collection_The Green Hag,bossinfo-bg-lv1,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15200,15200,15200,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+102102101,Campaign.BossName_i102102101,potrait_Mordred,collection_Mordred,bossinfo-bg-lv1,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,194572,194572,194572,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+102102102,Campaign.BossName_i102102102,potrait_Mordred,collection_Mordred,bossinfo-bg-lv1,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,158090,158090,158090,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+102102103,Campaign.BossName_i102102103,potrait_Mordred,collection_Mordred,bossinfo-bg-lv1,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,206733,206733,206733,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+102102104,Campaign.BossName_i102102104,potrait_Dragon,collection_Dragon,bossinfo-bg-lv2,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,243215,243215,243215,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+102103100,Campaign.BossName_i102103100,potrait_Morgana,collection_Morgana,bossinfo-bg-lv1,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18241,18241,18241,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+102103101,Campaign.BossName_i102103101,potrait_Rebel2,collection_Rebel2,bossinfo-bg-lv1,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,212813,212813,212813,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+102103102,Campaign.BossName_i102103102,potrait_Pict2,collection_Pict2,bossinfo-bg-lv1,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,224974,224974,224974,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+102103103,Campaign.BossName_i102103103,potrait_Rebel1,collection_Rebel1,bossinfo-bg-lv1,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,256470,256470,256470,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+102103104,Campaign.BossName_i102103104,potrait_King Mark of Cornwall,collection_King Mark of Cornwall,bossinfo-bg-lv3,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,300925,300925,300925,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+103100100,Campaign.BossName_i103100100,potrait_Rebel Knights,collection_Rebel Knights,bossinfo-bg-lv1,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,242966,728898,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+103100101,Campaign.BossName_i103100101,potrait_Morhot,collection_Morhot,bossinfo-bg-lv1,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1822246,0,607415,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+103100102,Campaign.BossName_i103100102,potrait_Andred,collection_Andred,bossinfo-bg-lv1,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1123718,3371156,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+103100103,Campaign.BossName_i103100103,potrait_Drust mac Erp,collection_Drust mac Erp,bossinfo-bg-lv1,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,911123,2733370,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+103100104,Campaign.BossName_i103100104,potrait_Morgana,collection_Morgana,bossinfo-bg-lv2,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1214831,3644493,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+103101100,Campaign.BossName_i103101100,potrait_Irish Knights,collection_Irish Knights,bossinfo-bg-lv1,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,91112,0,30370,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+103101101,Campaign.BossName_i103101101,potrait_King Mark of Cornwall,collection_King Mark of Cornwall,bossinfo-bg-lv1,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1214831,3644493,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+103101102,Campaign.BossName_i103101102,potrait_King Mark of Cornwall,collection_King Mark of Cornwall,bossinfo-bg-lv1,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1700763,5102291,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+103101103,Campaign.BossName_i103101103,potrait_King Mark of Cornwall,collection_King Mark of Cornwall,bossinfo-bg-lv1,34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5466740,0,1822246,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+103101104,Campaign.BossName_i103101104,potrait_Mordred,collection_Mordred,bossinfo-bg-lv2,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6742313,0,2247437,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+103102100,Campaign.BossName_i103102100,potrait_Red Knight,collection_Red Knight,bossinfo-bg-lv1,38,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,151853,455561,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+103102101,Campaign.BossName_i103102101,potrait_Talorc the Druid,collection_Talorc the Druid,bossinfo-bg-lv1,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1943730,5831190,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+103102102,Campaign.BossName_i103102102,potrait_King Mark of Cornwall,collection_King Mark of Cornwall,bossinfo-bg-lv1,42,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1579280,4737841,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+103102103,Campaign.BossName_i103102103,potrait_Drust mac Erp,collection_Drust mac Erp,bossinfo-bg-lv1,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2065213,6195639,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+103102104,Campaign.BossName_i103102104,potrait_Finn McCool,collection_Finn McCool,bossinfo-bg-lv2,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7288987,0,2429662,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+103103100,Campaign.BossName_i103103100,potrait_Andred,collection_Andred,bossinfo-bg-lv1,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,182224,546674,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+103103101,Campaign.BossName_i103103101,potrait_Pict1,collection_Pict1,bossinfo-bg-lv1,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2125954,6377864,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+103103102,Campaign.BossName_i103103102,potrait_Mordred,collection_Mordred,bossinfo-bg-lv1,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6742313,0,2247437,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+103103103,Campaign.BossName_i103103103,potrait_Drust mac Erp,collection_Drust mac Erp,bossinfo-bg-lv1,54,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2562079,7686237,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+103103104,Campaign.BossName_i103103104,potrait_Drust mac Erp,collection_Drust mac Erp,bossinfo-bg-lv3,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3006172,9018518,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+104100100,Campaign.BossName_i104100100,boss,boss-head,bossinfo-bg-lv1,17,0,0,0,0,28,28,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+104100101,Campaign.BossName_i104100101,boss,boss-head,bossinfo-bg-lv1,18,0,0,0,0,28,28,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+104100102,Campaign.BossName_i104100102,boss,boss-head,bossinfo-bg-lv1,19,0,0,0,0,29,29,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+104100103,Campaign.BossName_i104100103,boss,boss-head,bossinfo-bg-lv1,20,0,0,0,0,30,30,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+104100104,Campaign.BossName_i104100104,boss,boss-head,bossinfo-bg-lv1,21,0,0,0,0,31,31,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+104101100,Campaign.BossName_i104101100,boss,boss-head,bossinfo-bg-lv1,18,0,0,0,0,32,32,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+104101101,Campaign.BossName_i104101101,boss,boss-head,bossinfo-bg-lv1,19,0,0,0,0,33,33,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+104101102,Campaign.BossName_i104101102,boss,boss-head,bossinfo-bg-lv1,20,0,0,0,0,33,33,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+104101103,Campaign.BossName_i104101103,boss,boss-head,bossinfo-bg-lv1,21,0,0,0,0,34,34,34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+104101104,Campaign.BossName_i104101104,boss,boss-head,bossinfo-bg-lv1,22,0,0,0,0,35,35,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+104102100,Campaign.BossName_i104102100,boss,boss-head,bossinfo-bg-lv1,19,0,0,0,0,36,36,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+104102101,Campaign.BossName_i104102101,boss,boss-head,bossinfo-bg-lv1,20,0,0,0,0,37,37,37,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+104102102,Campaign.BossName_i104102102,boss,boss-head,bossinfo-bg-lv1,21,0,0,0,0,38,38,38,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+104102103,Campaign.BossName_i104102103,boss,boss-head,bossinfo-bg-lv1,22,0,0,0,0,38,38,38,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+104102104,Campaign.BossName_i104102104,boss,boss-head,bossinfo-bg-lv1,23,0,0,0,0,39,39,39,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+104103100,Campaign.BossName_i104103100,boss,boss-head,bossinfo-bg-lv1,20,0,0,0,0,40,40,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+104103101,Campaign.BossName_i104103101,boss,boss-head,bossinfo-bg-lv1,21,0,0,0,0,41,41,41,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+104103102,Campaign.BossName_i104103102,boss,boss-head,bossinfo-bg-lv1,22,0,0,0,0,42,42,42,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+104103103,Campaign.BossName_i104103103,boss,boss-head,bossinfo-bg-lv1,23,0,0,0,0,43,43,43,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+104103104,Campaign.BossName_i104103104,boss,boss-head,bossinfo-bg-lv1,24,0,0,0,0,47,47,47,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+105100100,Campaign.BossName_i105100100,boss,boss-head,bossinfo-bg-lv1,21,0,0,0,0,36,36,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+105100101,Campaign.BossName_i105100101,boss,boss-head,bossinfo-bg-lv1,22,0,0,0,0,37,37,37,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+105100102,Campaign.BossName_i105100102,boss,boss-head,bossinfo-bg-lv1,23,0,0,0,0,38,38,38,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+105100103,Campaign.BossName_i105100103,boss,boss-head,bossinfo-bg-lv1,24,0,0,0,0,38,38,38,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+105100104,Campaign.BossName_i105100104,boss,boss-head,bossinfo-bg-lv1,25,0,0,0,0,39,39,39,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+105101100,Campaign.BossName_i105101100,boss,boss-head,bossinfo-bg-lv1,22,0,0,0,0,40,40,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+105101101,Campaign.BossName_i105101101,boss,boss-head,bossinfo-bg-lv1,23,0,0,0,0,41,41,41,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+105101102,Campaign.BossName_i105101102,boss,boss-head,bossinfo-bg-lv1,24,0,0,0,0,42,42,42,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+105101103,Campaign.BossName_i105101103,boss,boss-head,bossinfo-bg-lv1,25,0,0,0,0,43,43,43,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+105101104,Campaign.BossName_i105101104,boss,boss-head,bossinfo-bg-lv1,26,0,0,0,0,43,43,43,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+105102100,Campaign.BossName_i105102100,boss,boss-head,bossinfo-bg-lv1,23,0,0,0,0,44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+105102101,Campaign.BossName_i105102101,boss,boss-head,bossinfo-bg-lv1,24,0,0,0,0,45,45,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+105102102,Campaign.BossName_i105102102,boss,boss-head,bossinfo-bg-lv1,25,0,0,0,0,46,46,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+105102103,Campaign.BossName_i105102103,boss,boss-head,bossinfo-bg-lv1,26,0,0,0,0,47,47,47,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+105102104,Campaign.BossName_i105102104,boss,boss-head,bossinfo-bg-lv1,27,0,0,0,0,48,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+105103100,Campaign.BossName_i105103100,boss,boss-head,bossinfo-bg-lv1,24,0,0,0,0,48,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+105103101,Campaign.BossName_i105103101,boss,boss-head,bossinfo-bg-lv1,25,0,0,0,0,49,49,49,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+105103102,Campaign.BossName_i105103102,boss,boss-head,bossinfo-bg-lv1,26,0,0,0,0,50,50,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+105103103,Campaign.BossName_i105103103,boss,boss-head,bossinfo-bg-lv1,27,0,0,0,0,51,51,51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+105103104,Campaign.BossName_i105103104,boss,boss-head,bossinfo-bg-lv1,28,0,0,0,0,58,58,58,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+200100100,Campaign.BossName_i200100100,potrait_Drust mac Erp,collection_Drust mac Erp,bossinfo-bg-lv2,25,1200,0,0,0,22848,22848,22848,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+201100100,Campaign.BossName_i201100100,potrait_Hueil mac Caw,collection_Hueil mac Caw,bossinfo-bg-lv2,26,1200,0,0,0,72000,72000,72000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+202100100,Campaign.BossName_i202100100,potrait_Talorc the Druid,collection_Talorc the Druid,bossinfo-bg-lv2,27,1200,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,684000,684000,684000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+203100100,Campaign.BossName_i203100100,potrait_King Mark of Cornwall,collection_King Mark of Cornwall,bossinfo-bg-lv2,50,1200,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1084000,1084000,1084000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+300100100,Campaign.BossName_i300100100,potrait_King Maleagant,collection_King Maleagant,bossinfo-bg-lv3,1,0,0,0,0,35,35,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+300100101,Campaign.BossName_i300100100,potrait_King Maleagant,collection_King Maleagant,bossinfo-bg-lv3,10,0,0,0,0,101,101,101,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+300100102,Campaign.BossName_i300100100,potrait_King Maleagant,collection_King Maleagant,bossinfo-bg-lv3,20,0,0,0,0,291,291,291,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+300100103,Campaign.BossName_i300100100,potrait_King Maleagant,collection_King Maleagant,bossinfo-bg-lv3,30,0,0,0,0,839,839,839,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+300100104,Campaign.BossName_i300100100,potrait_King Maleagant,collection_King Maleagant,bossinfo-bg-lv3,40,0,0,0,0,2418,2418,2418,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+300100105,Campaign.BossName_i300100100,potrait_King Maleagant,collection_King Maleagant,bossinfo-bg-lv3,50,0,0,0,0,6969,6969,6969,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+300100106,Campaign.BossName_i300100100,potrait_King Maleagant,collection_King Maleagant,bossinfo-bg-lv3,60,0,0,0,0,20084,20084,20084,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+300100107,Campaign.BossName_i300100100,potrait_King Maleagant,collection_King Maleagant,bossinfo-bg-lv3,70,0,0,0,0,57881,57881,57881,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+300100108,Campaign.BossName_i300100100,potrait_King Maleagant,collection_King Maleagant,bossinfo-bg-lv3,80,0,0,0,0,166810,166810,166810,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+300100109,Campaign.BossName_i300100100,potrait_King Maleagant,collection_King Maleagant,bossinfo-bg-lv3,90,0,0,0,0,480737,480737,480737,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+301100100,Campaign.BossName_i103103104,potrait_Drust mac Erp,collection_Drust mac Erp,bossinfo-bg-lv3,200,7200,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1600000,2100000,1100000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+301100101,Campaign.BossName_i103103104,potrait_Drust mac Erp,collection_Drust mac Erp,bossinfo-bg-lv3,200,7200,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1600000,2100000,1100000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+301100102,Campaign.BossName_i103103104,potrait_Drust mac Erp,collection_Drust mac Erp,bossinfo-bg-lv3,200,7200,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1600000,2100000,1100000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+301100103,Campaign.BossName_i103103104,potrait_Drust mac Erp,collection_Drust mac Erp,bossinfo-bg-lv3,200,7200,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1600000,2100000,1100000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+301100104,Campaign.BossName_i103103104,potrait_Drust mac Erp,collection_Drust mac Erp,bossinfo-bg-lv3,200,7200,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1600000,2100000,1100000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+400100100,Campaign.BossName_i101100103,potrait_Hueil mac Caw,collection_Hueil mac Caw,bossinfo-bg-lv1,20,0,0,0,0,0,0,100,100,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8000,200,0,0,0,0,0,0,0,0,0,0
+400100101,Campaign.BossName_i101100104,potrait_Red Knight,collection_Red Knight,bossinfo-bg-lv2,40,0,0,0,0,0,0,200,200,200,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7500,170,0,0,0,0,0,0,0,0,0,0
+400100102,Campaign.BossName_i101101100,potrait_Black Knight,collection_Black Knight,bossinfo-bg-lv1,60,0,0,0,0,0,0,400,400,400,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7000,140,0,0,0,0,0,0,0,0,0,0
+400100103,Campaign.BossName_i101101101,potrait_Green Knight,collection_Green Knight,bossinfo-bg-lv1,80,0,0,0,0,0,0,800,800,800,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6500,110,0,0,0,0,0,0,0,0,0,0
+400100104,Campaign.BossName_i101101102,potrait_Purple Knight,collection_Purple Knight,bossinfo-bg-lv1,100,0,0,0,0,0,0,1600,1600,1600,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6000,80,0,0,0,0,0,0,0,0,0,0
+400100105,Campaign.BossName_i101101103,potrait_Blue Knight,collection_Blue Knight,bossinfo-bg-lv1,120,0,0,0,0,0,0,3200,3200,3200,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5500,50,0,0,0,0,0,0,0,0,0,0
+400100106,Campaign.BossName_i102103104,potrait_King Mark of Cornwall,collection_King Mark of Cornwall,bossinfo-bg-lv1,140,0,0,0,0,0,0,6400,6400,6400,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5000,40,0,0,0,0,0,0,0,0,0,0
+400100107,Campaign.BossName_i103102103,potrait_Drust mac Erp,collection_Drust mac Erp,bossinfo-bg-lv2,160,0,0,0,0,0,0,12800,12800,12800,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4500,30,0,0,0,0,0,0,0,0,0,0
+400100108,Campaign.BossName_i103102104,potrait_Finn McCool,collection_Finn McCool,bossinfo-bg-lv2,180,0,0,0,0,0,0,25600,25600,25600,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4000,20,0,0,0,0,0,0,0,0,0,0
+400100109,Campaign.BossName_i103103100,potrait_Andred,collection_Andred,bossinfo-bg-lv3,200,0,0,0,0,0,0,51200,51200,51200,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3500,10,0,0,0,0,0,0,0,0,0,0
+400100110,Campaign.BossName_i103103104,potrait_Drust mac Erp,collection_Drust mac Erp,bossinfo-bg-lv3,220,0,0,0,0,0,0,102400,102400,102400,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3000,10,0,0,0,0,0,0,0,0,0,0

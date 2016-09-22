@@ -1,0 +1,7 @@
+message PBMsgResponse
+{
+	required bool ok = 1;
+	optional int32 error_code = 2;
+	optional string msg = 3;
+   	optional bytes data = 4;
+}

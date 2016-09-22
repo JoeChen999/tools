@@ -1,0 +1,5 @@
+message PBMsgReqInitHeroExplore
+{
+  required int64 cid = 1;
+  required int64 hid = 2;
+}

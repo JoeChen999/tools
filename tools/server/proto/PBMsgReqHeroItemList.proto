@@ -1,0 +1,4 @@
+message PBMsgReqHeroItemList
+{
+  required int64 hid = 1;
+}

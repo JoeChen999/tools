@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="layout">false</item>
+    <item type="id" name="purchased">false</item>
+    <item type="id" name="canceled">false</item>
+    <item type="id" name="unavailable">false</item>
+    <item type="id" name="prodectid">false</item>
+    <item type="id" name="buy">false</item>
+</resources>

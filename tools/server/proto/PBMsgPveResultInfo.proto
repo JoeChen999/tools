@@ -1,0 +1,14 @@
+message PBMsgPveResultInfo
+{
+    required int32 levelID = 1;
+    
+    optional int32 score = 2;
+    optional int32 star = 3;
+    optional int32 speed = 4;
+    optional int32 vitality = 5;
+    optional int32 tactics = 6;
+    optional bool isHighest = 7;
+    repeated int32 item = 8;
+}
+
+

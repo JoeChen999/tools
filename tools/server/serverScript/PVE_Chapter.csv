@@ -1,0 +1,15 @@
+ID,TYPE,NAME,ICON,SLOT_ID,PARENT_CHAPTER_ID,ENABLED,UNLOCK_STAR,UNLOCK_MAP_ID,EXPIRE_TIME,ACTIVE_DURATION,PROBABILITY
+INT,INT,STRING,STRING,INT,INT,INT,INT,INT,DATETIME,INT,INT
+100,1,Campaign.ChapterName_i100,boss,1,0,1,0,0,2024/5/5,0,0
+101,1,Campaign.ChapterName_i101,boss,2,100,1,0,0,2024/5/6,0,0
+102,1,Campaign.ChapterName_i102,boss,3,101,1,0,0,2024/5/7,0,0
+103,1,Campaign.ChapterName_i103,boss,4,102,1,0,0,2024/5/8,0,0
+104,1,Campaign.ChapterName_i104,boss,5,103,0,0,0,2024/5/9,0,0
+105,1,Campaign.ChapterName_i105,boss,6,104,0,0,0,2024/5/10,0,0
+200,2,Campaign.ChapterName_i200,bossicon_Drust mac Erp,101,0,1,30,0,2024/5/11,3600,5
+201,2,Campaign.ChapterName_i201,bossicon_Hueil mac Caw,101,0,1,70,0,2024/5/12,3600,5
+202,2,Campaign.ChapterName_i202,bossicon_Talorc the Druid,101,0,1,110,0,2024/5/13,3600,5
+203,2,Campaign.ChapterName_i203,bossicon_King Mark of Cornwall,101,0,1,150,0,2024/5/14,3600,5
+300,3,Campaign.ChapterName_i301,bossicon_King Maleagant,101,0,1,0,0,2024/5/14,43200,0
+301,3,Campaign.ChapterName_i301,bossicon_Drust mac Erp,101,0,1,0,0,2024/5/15,86400,0
+400,4,Campaign.ChapterName_i400,bossicon_King Maleagant,401,0,1,0,0,2024/6/3,80000,0

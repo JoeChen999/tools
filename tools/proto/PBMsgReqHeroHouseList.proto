@@ -1,0 +1,3 @@
+message PBMsgReqHeroHouseList {
+  required int64 cid = 1;
+}

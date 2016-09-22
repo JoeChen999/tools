@@ -1,0 +1,18 @@
+message PBMsgInitHeroExplore {
+
+    enum PBMsgHeroStatus {
+        UNLOCKED = 1;
+        IN_CITY_DO_NOTHING = 2;
+        IN_CITY_IN_MARCH = 3;
+        IN_CITY_SLEEP = 4;
+        IN_NO_CITY = 5;
+    }
+
+    required int64 exploreId = 1;
+    repeated int32 itemId = 2;
+    required int32 strength = 3;
+    required PBMsgHeroStatus status = 4;
+    required int32 sleepTime = 5;
+    required int64 userHeroId = 6;
+}
+

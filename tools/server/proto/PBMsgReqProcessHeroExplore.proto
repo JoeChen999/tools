@@ -1,0 +1,7 @@
+message PBMsgReqProcessHeroExplore
+{
+  required int64 hid = 1;
+  required int64 eid = 2;
+  required bool useGems = 3;
+  required int32 gems = 4;
+}

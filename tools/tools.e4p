@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Project SYSTEM "Project-4.6.dtd">
+<!-- eric4 project file for project tools -->
+<!-- Saved: 2014-04-01, 15:01:54 -->
+<!-- Copyright (C) 2014 ,  -->
+<Project version="4.6">
+  <Language>en</Language>
+  <ProgLanguage mixed="0">Python</ProgLanguage>
+  <ProjectType>Qt4</ProjectType>
+  <Description></Description>
+  <Version>0.1</Version>
+  <Author></Author>
+  <Email></Email>
+  <Sources>
+    <Source>__init__.py</Source>
+    <Source>Ui_tools.py</Source>
+    <Source>phpTest.py</Source>
+    <Source>protocol.py</Source>
+    <Source>Ui_treetest.py</Source>
+    <Source>treetest.py</Source>
+    <Source>readconfig.py</Source>
+    <Source>Ui_couput.py</Source>
+    <Source>couput.py</Source>
+    <Source>update.py</Source>
+    <Source>Ui_update.py</Source>
+    <Source>server/__init__.py</Source>
+    <Source>server/SimpleHTTPServer.py</Source>
+    <Source>server/dealPost.py</Source>
+    <Source>server/serverScript/toBePowerful.py</Source>
+    <Source>server/serverScript/commitLog.py</Source>
+    <Source>server/serverScript/codeUpdate.py</Source>
+    <Source>server/index.html</Source>
+    <Source>server/DBupdate.html</Source>
+    <Source>server/DBAupdate.html</Source>
+    <Source>server/phpsql/DBupdate.php</Source>
+    <Source>server/dealMultipart.py</Source>
+    <Source>server/serverScript/transGDS.py</Source>
+    <Source>server/transGDS.html</Source>
+    <Source>server/devTools.js</Source>
+    <Source>server/codeUpdate.html</Source>
+    <Source>server/serverPush.html</Source>
+    <Source>server/pb2py/__init__.py</Source>
+    <Source>server/pb2py/PBMsgAssignHero_pb2.py</Source>
+    <Source>server/pb2py/PBMsgBoostHero_pb2.py</Source>
+    <Source>server/pb2py/PBMsgGDS_pb2.py</Source>
+    <Source>server/pb2py/PBMsgHeader_pb2.py</Source>
+    <Source>server/pb2py/PBMsgHeroHouseList_pb2.py</Source>
+    <Source>server/pb2py/PBMsgHeroInfo_pb2.py</Source>
+    <Source>server/pb2py/PBMsgHeroItemList_pb2.py</Source>
+    <Source>server/pb2py/PBMsgInitHeroExplore_pb2.py</Source>
+    <Source>server/pb2py/PBMsgPlayerInfo_pb2.py</Source>
+    <Source>server/pb2py/PBMsgProcessHeroExplore_pb2.py</Source>
+    <Source>server/pb2py/PBMsgPveInfo_pb2.py</Source>
+    <Source>server/pb2py/PBMsgPveMarchInfo_pb2.py</Source>
+    <Source>server/pb2py/PBMsgPveResultInfo_pb2.py</Source>
+    <Source>server/pb2py/PBMsgPveStaminaInfo_pb2.py</Source>
+    <Source>server/pb2py/PBMsgReqAssignHero_pb2.py</Source>
+    <Source>server/pb2py/PBMsgReqBoostHero_pb2.py</Source>
+    <Source>server/pb2py/PBMsgReqGds_pb2.py</Source>
+    <Source>server/pb2py/PBMsgReqHeroHouseList_pb2.py</Source>
+    <Source>server/pb2py/PBMsgReqHeroItemList_pb2.py</Source>
+    <Source>server/pb2py/PBMsgReqInitHeroExplore_pb2.py</Source>
+    <Source>server/pb2py/PBMsgReqPlayerInfo_pb2.py</Source>
+    <Source>server/pb2py/PBMsgReqProcessHeroExplore_pb2.py</Source>
+    <Source>server/pb2py/PBMsgReqPve_pb2.py</Source>
+    <Source>server/pb2py/PBMsgReqPveInfo_pb2.py</Source>
+    <Source>server/pb2py/PBMsgReqPveMarch_pb2.py</Source>
+    <Source>server/pb2py/PBMsgReqUnassignHero_pb2.py</Source>
+    <Source>server/pb2py/PBMsgResponse_pb2.py</Source>
+    <Source>server/pb2py/PBMsgUnassignHero_pb2.py</Source>
+    <Source>server/pb2py/PBMsgUpdateSeed_pb2.py</Source>
+    <Source>server/protoTest.html</Source>
+    <Source>server/pb2py/PBMsgMystryChest_pb2.py</Source>
+    <Source>server/protoList.js</Source>
+    <Source>server/addProto.html</Source>
+    <Source>server/pbconf.py</Source>
+    <Source>server/unzip.py</Source>
+    <Source>server/sendUrlRequest.py</Source>
+    <Source>script/addPVEItems.py</Source>
+    <Source>script/addVIPItems.py</Source>
+    <Source>Ui_addProto.py</Source>
+    <Source>addProto.py</Source>
+    <Source>unzip.py</Source>
+  </Sources>
+  <Forms>
+    <Form>tools.ui</Form>
+    <Form>couput.ui</Form>
+    <Form>update.ui</Form>
+    <Form>addProto.ui</Form>
+  </Forms>
+  <Translations>
+  </Translations>
+  <Resources>
+  </Resources>
+  <Interfaces>
+  </Interfaces>
+  <Others>
+    <Other>conf</Other>
+    <Other>script</Other>
+    <Other>proto</Other>
+  </Others>
+  <Vcs>
+    <VcsType>None</VcsType>
+  </Vcs>
+  <FiletypeAssociations>
+    <FiletypeAssociation pattern="*.ui" type="FORMS" />
+    <FiletypeAssociation pattern="*.idl" type="INTERFACES" />
+    <FiletypeAssociation pattern="*.qm" type="TRANSLATIONS" />
+    <FiletypeAssociation pattern="*.ptl" type="SOURCES" />
+    <FiletypeAssociation pattern="*.pyw" type="SOURCES" />
+    <FiletypeAssociation pattern="*.ui.h" type="FORMS" />
+    <FiletypeAssociation pattern="*.ts" type="TRANSLATIONS" />
+    <FiletypeAssociation pattern="*.py" type="SOURCES" />
+    <FiletypeAssociation pattern="*.qrc" type="RESOURCES" />
+  </FiletypeAssociations>
+</Project>

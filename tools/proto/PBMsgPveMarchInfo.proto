@@ -1,0 +1,8 @@
+message PBMsgPveMarchInfo
+{
+    required int32 marchID = 1;
+    optional int32 levelID = 2;
+    optional int64 marchTime = 3;
+    
+    optional int32 hidenBossLevelID = 4;
+}

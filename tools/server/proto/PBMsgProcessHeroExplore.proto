@@ -1,0 +1,8 @@
+message PBMsgProcessHeroExplore {
+    required int64 exploreId = 1;
+    required int32 strength = 2;
+    optional int32 itemId = 3;
+    optional int32 itemCount = 4;
+    optional int32 gems = 5;
+    required int32 gemsN = 6;
+}

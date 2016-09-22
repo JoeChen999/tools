@@ -1,0 +1,1 @@
+('.DS_Store','db_config.ini','host','script_config.ini',)

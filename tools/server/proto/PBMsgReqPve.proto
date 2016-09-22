@@ -1,0 +1,11 @@
+message PBMsgReqPve
+{
+    optional int32 type = 1;  //0:none 1:info 2:recover energy 3:refill energy 4:march
+
+    optional int32 knightId = 2;
+    optional int32 cityId = 3;
+    optional int32 marchId = 4;
+    optional int32 levelId = 5;
+
+    repeated int32 units = 6;
+}

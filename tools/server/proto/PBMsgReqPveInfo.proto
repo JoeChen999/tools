@@ -1,0 +1,4 @@
+message PBMsgReqPveInfo
+{
+  optional string infoVer = 1;
+}

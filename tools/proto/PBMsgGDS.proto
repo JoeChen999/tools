@@ -1,0 +1,1 @@
+message PBMsgGDS{	optional string type = 1;	optional int32 version = 2;   	optional string data = 3;}

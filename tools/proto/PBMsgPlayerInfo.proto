@@ -1,0 +1,8 @@
+message PBMsgPlayerInfo
+{
+  optional string pveVer = 1;
+  optional bytes pveInfo = 2;
+  optional string heroVer = 3;
+  optional bytes heroInfo = 4;
+}
+
